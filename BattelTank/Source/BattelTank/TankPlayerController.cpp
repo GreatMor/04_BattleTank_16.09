@@ -23,3 +23,31 @@ void ATankPlayerController::BeginPlay()
 		UE_LOG(LogTemp, Warning, TEXT("PlayControlled possesing  %s"), *(ControlledTank->GetName()));
 	}
 }
+
+void ATankPlayerController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	AimTowardsCrosshair();
+}
+
+void ATankPlayerController::AimTowardsCrosshair()
+{
+	if (!GetControlledTank()) {return;}
+
+	FVector HitLocation;// Out parameter Место удара 
+
+	if (GetSighetHitLocation(HitLocation))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("HitLocation %s"), *(HitLocation.ToString()));
+	}
+	
+}
+
+//Get world location of lintrace through crosshair, return true if hit landscape
+//(Получить мировое местоположение Линтрейса через перекрестие, вернуть true, если ударил ландшафт)
+bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
+{
+	HitLocation = FVector(1.0);
+	return true;
+}
