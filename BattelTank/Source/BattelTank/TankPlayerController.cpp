@@ -39,7 +39,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 
 	if (GetSighetHitLocation(HitLocation))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("HitLocation %s"), *(HitLocation.ToString()));
+		//UE_LOG(LogTemp, Warning, TEXT("HitLocation %s"), *(HitLocation.ToString()));
 	}
 	
 }
@@ -48,6 +48,14 @@ void ATankPlayerController::AimTowardsCrosshair()
 //(Получить мировое местоположение Линтрейса через перекрестие, вернуть true, если ударил ландшафт)
 bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
 {
-	HitLocation = FVector(1.0);
+	
+	//Find the crosshair position
+	// (Найти положение прицела)
+	int32 ViewportSizeX, ViewportSizeY;//Out parametre
+	GetViewportSize(ViewportSizeX, ViewportSizeY);//Получение размера монитора
+
+	auto ScreenLocation = FVector2D(ViewportSizeX * CrossHairXLocation, ViewportSizeY * CrossHairYLocation);
+
+	UE_LOG(LogTemp, Warning, TEXT("ScreenLocation %s"), *(ScreenLocation.ToString()));
 	return true;
 }

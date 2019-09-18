@@ -16,7 +16,7 @@ class BATTELTANK_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 
-public:
+private:
 	ATank* GetControlledTank() const;
 
 	void BeginPlay() override;
@@ -29,5 +29,11 @@ public:
 
 	// Return an Out paramete,  true if hit landscape
 	bool GetSighetHitLocation(FVector& HitLocation) const;
+
+	UPROPERTY(EditAnywhere)
+	float CrossHairXLocation = 0.5f;
+
+	UPROPERTY(EditAnywhere)
+	float CrossHairYLocation = 0.33333f;
 		
 };
