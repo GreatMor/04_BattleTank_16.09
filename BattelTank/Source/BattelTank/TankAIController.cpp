@@ -17,6 +17,14 @@ ATank* ATankAIController::GetPlayerTank() const
 	return Cast<ATank>(PlayerPawn); //Предаёт в тип АТанка PlayerPawn
 }
 
+void ATankAIController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+	auto HitLocation = GetPlayerTank()->GetActorLocation();
+	GetControlledTank()->AimAt(HitLocation);
+}
+
 void ATankAIController::BeginPlay()
 {
 	Super::BeginPlay();
