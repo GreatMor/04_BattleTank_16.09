@@ -3,6 +3,11 @@
 
 #include "Tank.h"
 
+void ATank::SetBarrelReference(UStaticMeshComponent* BarrelToSet)
+{
+	TankAimingComponent->SetBarrelRefernce(BarrelToSet);
+}
+
 // Sets default values
 ATank::ATank()
 {

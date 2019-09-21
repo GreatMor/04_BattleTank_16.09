@@ -29,12 +29,16 @@ void UTankAimingComponent::TickComponent(float DeltaTime, ELevelTick TickType, F
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+}
+
+void UTankAimingComponent::SetBarrelRefernce(UStaticMeshComponent* BarrelToSet)
+{
+	Barrel = BarrelToSet;
 }
 
 void UTankAimingComponent::AimAt(FVector WorldSpaceAim)
 {
-	auto OurTankName = GetOwner()->GetName(); //Текущее имя танка который целится 
-	UE_LOG(LogTemp, Warning, TEXT("%s aiming at %s"), *OurTankName, *WorldSpaceAim.ToString());
+	auto OurTankName = GetOwner()->GetName(); //Текущее имя танка который целится
+	auto BarrelLocation = Barrel->GetComponentLocation().ToString();
+	UE_LOG(LogTemp, Warning, TEXT("%s aiming at %s, barrel location %s:"), *OurTankName, *WorldSpaceAim.ToString(), *BarrelLocation);
 }
-
