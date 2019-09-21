@@ -20,9 +20,21 @@ ATank* ATankAIController::GetPlayerTank() const
 void ATankAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 	
-	auto HitLocation = GetPlayerTank()->GetActorLocation();
-	GetControlledTank()->AimAt(HitLocation);
+	auto LocationPlayerTank = GetPlayerTank()->GetActorLocation();//Location of the player’s tank  (Место нахождене танка игрока) 
+
+	if (GetPlayerTank())
+	{
+		// TODO Move towards the player
+
+		//Aim towards the player (Нацелится на танк игрока )
+		GetControlledTank()->AimAt(LocationPlayerTank);
+	}
+	else
+	{
+		return;
+	}
 }
 
 void ATankAIController::BeginPlay()
