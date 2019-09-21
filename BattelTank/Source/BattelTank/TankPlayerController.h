@@ -21,7 +21,20 @@ private:
 
 	void BeginPlay() override;
 
-	virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaTime) override;	
+	
+	UPROPERTY(EditAnywhere)
+	float CrossHairXLocation = 0.5f;
+
+	UPROPERTY(EditAnywhere)
+	float CrossHairYLocation = 0.33333f;
+
+	UPROPERTY(EditAnywhere)
+	float LineTraceRange = 1000000;
+
+	bool GetLookDirektion(FVector2D ScreenLocation, FVector& LookDirection) const;
+
+	bool GetLoolVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
 
 	//Метод перемещает ствол танка так,
 	//что бы можно было выстрелить туда где прицел пересикается с миром
@@ -29,14 +42,6 @@ private:
 
 	// Return an Out paramete,  true if hit landscape
 	bool GetSighetHitLocation(FVector& HitLocation) const;
-
-	bool GetLookDirektion(FVector2D ScreenLocation, FVector& LookDirection) const;
-
-	UPROPERTY(EditAnywhere)
-	float CrossHairXLocation = 0.5f;
-
-	UPROPERTY(EditAnywhere)
-	float CrossHairYLocation = 0.33333f;
 
 		
 };
