@@ -16,11 +16,11 @@ void ATankPlayerController::BeginPlay()
 
 	if (!ControlledTank)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("PlayControlled not possesing a Tank"));
+		//UE_LOG(LogTemp, Warning, TEXT("PlayControlled not possesing a Tank"));
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("PlayControlled possesing  %s"), *(ControlledTank->GetName()));
+		//UE_LOG(LogTemp, Warning, TEXT("PlayControlled possesing  %s"), *(ControlledTank->GetName()));
 	}
 }
 
@@ -52,10 +52,33 @@ bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
 	//Find the crosshair position
 	// (Найти положение прицела)
 	int32 ViewportSizeX, ViewportSizeY;//Out parametre
+
 	GetViewportSize(ViewportSizeX, ViewportSizeY);//Получение размера монитора
 
 	auto ScreenLocation = FVector2D(ViewportSizeX * CrossHairXLocation, ViewportSizeY * CrossHairYLocation);
 
-	UE_LOG(LogTemp, Warning, TEXT("ScreenLocation %s"), *(ScreenLocation.ToString()));
+	FVector LookDirection; // OUT param
+
+	if (GetLookDirektion(ScreenLocation, LookDirection))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Look direction %s"), *(LookDirection.ToString()));
+	}
+	
 	return true;
 }
+
+// Получить направление прицела
+bool ATankPlayerController::GetLookDirektion(FVector2D ScreenLocation, FVector& LookDirection)const
+{
+	FVector CameraWorldLocation;//Out parametre
+	FVector WorldDirection;//Out parametre
+
+	return DeprojectScreenPositionToWorld(
+		ScreenLocation.X,
+		ScreenLocation.Y,
+		CameraWorldLocation,
+		WorldDirection
+		);	
+}
+
+
