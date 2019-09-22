@@ -36,9 +36,9 @@ void UTankAimingComponent::SetBarrelRefernce(UStaticMeshComponent* BarrelToSet)
 	Barrel = BarrelToSet;
 }
 
-void UTankAimingComponent::AimAt(FVector WorldSpaceAim)
+void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LounchSpeed)
 {
 	auto OurTankName = GetOwner()->GetName(); //Текущее имя танка который целится
 	auto BarrelLocation = Barrel->GetComponentLocation().ToString();
-	UE_LOG(LogTemp, Warning, TEXT("%s aiming at %s, barrel location %s:"), *OurTankName, *WorldSpaceAim.ToString(), *BarrelLocation);
+	UE_LOG(LogTemp, Warning, TEXT("lounchSpeed %f:"), LounchSpeed);
 }
