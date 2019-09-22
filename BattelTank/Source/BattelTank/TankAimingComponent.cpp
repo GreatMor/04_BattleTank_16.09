@@ -1,7 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "GameFramework/Actor.h"
+
 #include "TankAimingComponent.h"
+#include "Components/SceneComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values for this component's properties
 UTankAimingComponent::UTankAimingComponent()
@@ -38,7 +40,17 @@ void UTankAimingComponent::SetBarrelRefernce(UStaticMeshComponent* BarrelToSet)
 
 void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LounchSpeed)
 {
-	auto OurTankName = GetOwner()->GetName(); //“екущее им€ танка который целитс€
-	auto BarrelLocation = Barrel->GetComponentLocation().ToString();
-	UE_LOG(LogTemp, Warning, TEXT("lounchSpeed %f:"), LounchSpeed);
+	if (!Barrel) { return; };
+	
+	FVector OutLounchVelocity; // OUT param
+	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
+	//Calculete the OutLounchVelocity	
+
+	if (UGameplayStatics::SuggestProjectileVelocity(this, OutLounchVelocity, StartLocation,
+		WorldSpaceAim, LounchSpeed, false, 0, 0, ESuggestProjVelocityTraceOption::DoNotTrace))//ѕредложить скорость снар€да
+
+	{
+		auto AimDirectio = OutLounchVelocity.GetSafeNormal();// AimDirection (направление прицеливани€) 
+		UE_LOG(LogTemp, Warning, TEXT("AimDirection %s:"), *AimDirectio.ToString());
+	}
 }
