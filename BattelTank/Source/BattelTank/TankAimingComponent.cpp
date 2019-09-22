@@ -15,24 +15,6 @@ UTankAimingComponent::UTankAimingComponent()
 	// ...
 }
 
-
-// Called when the game starts
-void UTankAimingComponent::BeginPlay()
-{
-	Super::BeginPlay();
-
-	// ...
-	
-}
-
-
-// Called every frame
-void UTankAimingComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-}
-
 void UTankAimingComponent::SetBarrelRefernce(UStaticMeshComponent* BarrelToSet)
 {
 	Barrel = BarrelToSet;
@@ -46,11 +28,22 @@ void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LounchSpeed)
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
 	//Calculete the OutLounchVelocity	
 
-	if (UGameplayStatics::SuggestProjectileVelocity(this, OutLounchVelocity, StartLocation,
-		WorldSpaceAim, LounchSpeed, false, 0, 0, ESuggestProjVelocityTraceOption::DoNotTrace))//Предложить скорость снаряда
+	bool bHaveAimSolution = (UGameplayStatics::SuggestProjectileVelocity(this, OutLounchVelocity, StartLocation,
+		WorldSpaceAim, LounchSpeed, false, 0, 0, ESuggestProjVelocityTraceOption::DoNotTrace));//Предложить скорость снаряда
 
-	{
-		auto AimDirectio = OutLounchVelocity.GetSafeNormal();// AimDirection (направление прицеливания) 
-		UE_LOG(LogTemp, Warning, TEXT("AimDirection %s:"), *AimDirectio.ToString());
-	}
+	if (bHaveAimSolution)
+		{
+		auto AimDirection = OutLounchVelocity.GetSafeNormal();// AimDirection (направление прицеливания) 		
+		MoveBarrelTowards(AimDirection);
+		}		
+}
+void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
+{
+	auto BarrelRotator = Barrel->GetForwardVector().Rotation();// Направления пушки
+	auto AimAsRotator = AimDirection.Rotation();
+
+	UE_LOG(LogTemp, Warning, TEXT("AimAsRotator %s:"), *AimAsRotator.ToString());
+	//Получить разницу между положением пушки 
+	//SetRotationTurret
+	//SetRotatioBarrel
 }
