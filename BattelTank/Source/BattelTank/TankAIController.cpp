@@ -12,7 +12,7 @@ ATank* ATankAIController::GetPlayerTank() const
 {
 	auto PlayerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();// Получаем пешку игрока 
 
-	if (!PlayerPawn) {return nullptr;}
+	if (!PlayerPawn) { return nullptr; }
 
 	return Cast<ATank>(PlayerPawn); //Предаёт в тип АТанка PlayerPawn
 }
@@ -21,7 +21,7 @@ void ATankAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	
+
 	auto LocationPlayerTank = GetPlayerTank()->GetActorLocation();//Location of the player’s tank  (Место нахождене танка игрока) 
 
 	if (GetPlayerTank())
@@ -47,7 +47,7 @@ void ATankAIController::BeginPlay()
 
 	if (!PlayerTank)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AI controlled %s does not see the tank"),*(ControlledTank->GetName()));
+		UE_LOG(LogTemp, Warning, TEXT("AI controlled %s does not see the tank"), *(ControlledTank->GetName()));
 	}
 	else
 	{

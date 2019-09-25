@@ -76,3 +76,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 BattelTank/Content/Material/
+BattelTank/Binaries/Win64/BattelTankEditor.target
+BattelTank/Binaries/
+BattelTank/Intermediate/

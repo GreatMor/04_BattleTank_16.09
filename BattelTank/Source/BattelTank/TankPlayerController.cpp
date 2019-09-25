@@ -1,5 +1,6 @@
 ﻿// Fill out your copyright notice in the Description page of Project Settings.
 
+
 #include "TankPlayerController.h"
 #include "Engine/World.h"
 #include "Camera/PlayerCameraManager.h"
@@ -42,13 +43,13 @@ void ATankPlayerController::AimTowardsCrosshair()
 	{
 		GetControlledTank()->AimAt(HitLocation);
 	}
-	
+
 }
 
 //Get world location of lintrace through crosshair, return true if hit landscape
 //(Получить мировое местоположение Линтрейса через перекрестие, вернуть true, если ударил ландшафт)
 bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
-{	
+{
 	//Find the crosshair position
 	// (Найти положение прицела)
 	int32 ViewportSizeX, ViewportSizeY;//Out parametre
@@ -67,13 +68,13 @@ bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
 bool ATankPlayerController::GetLookDirektion(FVector2D ScreenLocation, FVector& LookDirection)const
 {
 	FVector CameraWorldLocation;//Out parametre
-	
+
 	return DeprojectScreenPositionToWorld(
 		ScreenLocation.X,
 		ScreenLocation.Y,
 		CameraWorldLocation,
 		LookDirection
-		);	 
+	);
 }
 
 bool ATankPlayerController::GetLoolVectorHitLocation(FVector LookDirection, FVector& HitLocation) const
@@ -96,5 +97,3 @@ bool ATankPlayerController::GetLoolVectorHitLocation(FVector LookDirection, FVec
 	HitLocation = FVector(0);
 	return false;
 }
-
-

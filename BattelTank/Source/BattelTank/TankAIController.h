@@ -9,7 +9,7 @@
 #include "TankAIController.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class BATTELTANK_API ATankAIController : public AAIController
@@ -25,5 +25,5 @@ private:
 	ATank* GetPlayerTank()const; //Вернёт указатель на танк игрока
 
 	virtual void Tick(float DeltaTime) override;
-	   	
+
 };

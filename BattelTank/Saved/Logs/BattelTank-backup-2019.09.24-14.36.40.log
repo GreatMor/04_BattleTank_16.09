@@ -1,0 +1,1517 @@
+﻿Log file open, 09/24/19 16:54:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BattelTank
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.196295
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Xeon(R) CPU           W3565  @ 3.20GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.24-13.54.06:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.24-13.54.06:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.24-13.54.06:291][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.24-13.54.06:294][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:294][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.24-13.54.06:294][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.24-13.54.06:294][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:294][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.24-13.54.06:294][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.24-13.54.06:295][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.24-13.54.06:296][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.24-13.54.06:296][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.24-13.54.06:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.24-13.54.06:306][  0]LogHAL: Display: Platform has ~ 12 GB [12867313664 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.24-13.54.06:306][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.24-13.54.06:306][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.09.24-13.54.06:306][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.09.24-13.54.06:307][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.24-13.54.06:308][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.24-13.54.06:308][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.24-13.54.06:308][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.24-13.54.06:308][  0]LogInit: Computer: COMPUTER
+[2019.09.24-13.54.06:308][  0]LogInit: User: Happy
+[2019.09.24-13.54.06:308][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.24-13.54.06:308][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.24-13.54.06:308][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2019.09.24-13.54.06:308][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.24-13.54.06:308][  0]LogMemory: Process Physical Memory: 100.80 MB used, 100.80 MB peak
+[2019.09.24-13.54.06:308][  0]LogMemory: Process Virtual Memory: 90.32 MB used, 90.32 MB peak
+[2019.09.24-13.54.06:308][  0]LogMemory: Physical Memory: 5128.65 MB used,  7142.58 MB free, 12271.23 MB total
+[2019.09.24-13.54.06:308][  0]LogMemory: Virtual Memory: 4646.19 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.09.24-13.54.06:328][  0]LogInit: Using OS detected language (ru-RU).
+[2019.09.24-13.54.06:328][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.09.24-13.54.06:329][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.09.24-13.54.06:329][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2019.09.24-13.54.06:329][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2019.09.24-13.54.06:330][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2019.09.24-13.54.06:330][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2019.09.24-13.54.06:330][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2019.09.24-13.54.06:330][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2019.09.24-13.54.06:330][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2019.09.24-13.54.06:331][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.24-13.54.06:359][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.24-13.54.06:359][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.24-13.54.06:547][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.24-13.54.06:547][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.24-13.54.06:620][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.09.24-13.54.06:620][  0]LogD3D11RHI:       4018/0/6135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.24-13.54.06:622][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.24-13.54.06:622][  0]LogD3D11RHI:       0/0/6135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.24-13.54.06:622][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.24-13.54.06:629][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.24-13.54.06:629][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.24-13.54.06:629][  0]LogWindows: EnumDisplayDevices:
+[2019.09.24-13.54.06:629][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.09.24-13.54.06:630][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.09.24-13.54.06:630][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.09.24-13.54.06:630][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.09.24-13.54.06:630][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.09.24-13.54.06:630][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.09.24-13.54.06:630][  0]LogD3D11RHI:   Driver Version: 436.30 (internal:26.21.14.3630, unified:436.30)
+[2019.09.24-13.54.06:630][  0]LogD3D11RHI:      Driver Date: 9-5-2019
+[2019.09.24-13.54.06:631][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.09.24-13.54.06:682][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.24-13.54.06:691][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.24-13.54.06:691][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.24-13.54.06:691][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.24-13.54.06:700][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.24-13.54.07:052][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.24-13.54.07:071][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.24-13.54.07:091][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.24-13.54.07:110][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.24-13.54.07:129][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.24-13.54.07:149][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.24-13.54.07:168][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.24-13.54.07:189][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.24-13.54.07:200][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.24-13.54.07:312][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.24-13.54.07:313][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.24-13.54.07:313][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.24-13.54.07:313][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.24-13.54.07:313][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.24-13.54.07:313][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.24-13.54.07:314][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.24-13.54.07:373][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.24-13.54.07:373][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.24-13.54.07:406][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.24-13.54.07:406][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.24-13.54.07:422][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.24-13.54.07:441][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.24-13.54.07:458][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.24-13.54.07:476][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.24-13.54.07:541][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.24-13.54.07:541][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.24-13.54.07:542][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.24-13.54.07:551][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.24-13.54.07:607][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/Udemy/buildingescape/BT/BattelTank/Intermediate/Shaders/WorkingDirectory/1924/).
+[2019.09.24-13.54.07:607][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Happy/AppData/Local/Temp/UnrealShaderWorkingDir/AFE716904529070C87D03E8A70D39C4B/'.
+[2019.09.24-13.54.07:610][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.24-13.54.07:610][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.24-13.54.07:610][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.24-13.54.08:412][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.24-13.54.08:475][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Happy/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.24-13.54.08:475][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Happy/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.24-13.54.08:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Udemy/buildingescape/BT/BattelTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.24-13.54.08:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.24-13.54.08:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Udemy/buildingescape/BT/BattelTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.24-13.54.08:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.24-13.54.08:491][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.24-13.54.08:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.24-13.54.08:491][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.24-13.54.08:503][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Happy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.24-13.54.08:503][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.24-13.54.08:503][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.24-13.54.08:533][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.24-13.54.08:535][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.24-13.54.08:535][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.24-13.54.08:634][  0]LogAssetRegistry: FAssetRegistry took 0.0377 seconds to start up
+[2019.09.24-13.54.09:096][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.24-13.54.09:172][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.24-13.54.09:172][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.24-13.54.09:172][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.24-13.54.09:172][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.24-13.54.09:172][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.24-13.54.09:297][  0]LogNetVersion: BattelTank 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3957860822)
+[2019.09.24-13.54.09:803][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037125 seconds
+[2019.09.24-13.54.09:811][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.24-13.54.09:811][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.24-13.54.09:811][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.24-13.54.10:845][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.24-13.54.10:859][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.24-13.54.10:982][  0]SourceControl: Source control is disabled
+[2019.09.24-13.54.10:982][  0]SourceControl: Source control is disabled
+[2019.09.24-13.54.10:984][  0]SourceControl: Source control is disabled
+[2019.09.24-13.54.10:985][  0]SourceControl: Source control is disabled
+[2019.09.24-13.54.11:073][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.24-13.54.11:156][  0]LogOcInput: OculusInput pre-init called
+[2019.09.24-13.54.11:989][  0]LogEngine: Initializing Engine...
+[2019.09.24-13.54.11:990][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.24-13.54.11:991][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.24-13.54.12:283][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.24-13.54.12:301][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.24-13.54.12:318][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.24-13.54.12:339][  0]LogInit: FAudioDevice initialized.
+[2019.09.24-13.54.12:339][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.24-13.54.12:602][  0]LogDerivedDataCache: Saved boot cache 0.26s 71MB C:/Users/Happy/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.24-13.54.12:609][  0]LogInit: Texture streaming: Enabled
+[2019.09.24-13.54.12:630][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.24-13.54.12:651][  0]LogInit: Transaction tracking system initialized
+[2019.09.24-13.54.12:682][  0]BlueprintLog: New page: Editor Load
+[2019.09.24-13.54.12:783][  0]LocalizationService: Localization service is disabled
+[2019.09.24-13.54.13:150][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Content/' took 0.01s
+[2019.09.24-13.54.13:150][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.24-13.54.13:150][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.24-13.54.13:246][  0]LogLinker: Warning: Can't find file '/Game/terrain/physics/water'
+[2019.09.24-13.54.13:247][  0]LogLinker: Warning: Can't find file for asset '/Game/terrain/physics/water' while loading NULL.
+[2019.09.24-13.54.13:247][  0]LogLinker: Warning: Can't find file '/Game/terrain/physics/water'
+[2019.09.24-13.54.13:247][  0]LogLinker: Warning: Can't find file for asset '/Game/terrain/physics/water' while loading NULL.
+[2019.09.24-13.54.13:247][  0]LogLinker: Warning: Can't find file '/Game/terrain/physics/water'
+[2019.09.24-13.54.13:248][  0]LoadErrors: Failed to load /Game/terrain/physics/water.water Referenced by BodySetup_0
+[2019.09.24-13.54.13:248][  0]LogLinker: Warning: Can't find file for asset '/Game/terrain/physics/water' while loading NULL.
+[2019.09.24-13.54.13:369][  0]SourceControl: Source control is disabled
+[2019.09.24-13.54.13:369][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.24-13.54.13:370][  0]LightingResults: New page: Lighting Build
+[2019.09.24-13.54.13:373][  0]MapCheck: New page: Map Check
+[2019.09.24-13.54.13:373][  0]LightingResults: New page: Lighting Build
+[2019.09.24-13.54.13:399][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.09.24-13.54.13:520][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.09.24-13.54.13:526][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.24-13.54.13:551][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.09.24-13.54.13:551][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.24-13.54.13:552][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,134ms to complete.
+[2019.09.24-13.54.13:552][  0]LogFileHelpers: Loading map 'Template_Default' took 0.183
+[2019.09.24-13.54.13:645][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-13.54.13:656][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-13.54.13:667][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-13.54.13:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-13.54.13:685][  0]LogCollectionManager: Loaded 0 collections in 0.001729 seconds
+[2019.09.24-13.54.13:714][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Saved/Collections/' took 0.01s
+[2019.09.24-13.54.13:714][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Content/Developers/Happy/Collections/' took 0.01s
+[2019.09.24-13.54.13:714][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Content/Collections/' took 0.00s
+[2019.09.24-13.54.13:714][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.09.24-13.54.13:726][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2737 classes and 661 folders.
+[2019.09.24-13.54.13:734][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.24-13.54.13:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:737][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:737][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:739][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:739][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:740][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:740][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:741][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:741][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:744][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:745][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:745][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:746][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:747][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:747][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:748][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:748][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:749][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:753][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.24-13.54.13:795][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.24-13.54.13:804][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.24-13.54.13:887][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.24-13.54.13:889][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.24-13.54.13:896][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.24-13.54.13:984][  0]LogRenderer: Reallocating scene render targets to support 1168x600 Format 9 NumSamples 1 (Frame:1).
+[2019.09.24-13.54.14:038][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.24-13.54.14:130][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.24-13.54.14:130][  0]LogLoad: (Engine Initialization) Total time: 9.54 seconds
+[2019.09.24-13.54.14:130][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.24-13.54.14:179][  0]LogAssetRegistry: Asset discovery search completed in 5.5676 seconds
+[2019.09.24-13.54.14:183][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.09.24-13.54.14:183][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2019.09.24-13.54.14:185][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.09.24-13.54.14:196][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.24-13.54.16:142][ 72]LogSlate: Window 'Message Log' being destroyed
+[2019.09.24-13.54.16:145][ 72]LogSlate: Window 'Message Log' being destroyed
+[2019.09.24-13.54.17:121][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.24-13.54.18:144][308]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.24-13.54.18:201][308]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.24-13.54.32:238][972]Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" -game -rocket -progress
+[2019.09.24-13.54.32:644][972]Discovering modules, targets and source code for project...
+[2019.09.24-13.54.34:967][972]Binding IntelliSense data...
+[2019.09.24-13.54.37:096][972]Binding IntelliSense data... 100%
+[2019.09.24-13.54.37:097][972]Writing project files...
+[2019.09.24-13.54.40:025][972]Writing project files... 100%
+[2019.09.24-13.54.40:133][972]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.09.24-13.54.40:136][972]Candidate modules for hot reload:
+[2019.09.24-13.54.40:136][972]  BattelTank
+[2019.09.24-13.54.40:136][972]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,1705 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-13.54.54:936][972]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 19:54:54
+[2019.09.24-13.54.54:936][972]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-13.54.54:937][972]CompilerResultsLog: Creating makefile for BattelTankEditor (no existing makefile)
+[2019.09.24-13.54.54:937][972]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-13.54.54:937][972]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,4214348 seconds
+[2019.09.24-13.54.54:937][972]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-13.54.54:937][972]CompilerResultsLog: Building 12 actions with 4 processes...
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [1/12] TankBarrel.gen.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [2/12] Tank.gen.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [3/12] TankPlayerController.gen.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [4/12] TankBarrel.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [5/12] BattelTank.init.gen.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [6/12] TankAIController.gen.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [7/12] Tank.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [8/12] TankPlayerController.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [9/12] TankAIController.cpp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [10/12] UE4Editor-BattelTank-1705.lib
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1705.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1705.exp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [11/12] UE4Editor-BattelTank-1705.dll
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1705.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1705.suppressed.exp
+[2019.09.24-13.54.54:937][972]CompilerResultsLog:   [12/12] BattelTankEditor.target
+[2019.09.24-13.54.54:937][972]CompilerResultsLog: Total time in Parallel executor: 3,98 seconds
+[2019.09.24-13.54.54:937][972]CompilerResultsLog: Total execution time: 14,71 seconds
+[2019.09.24-13.54.54:937][972]LogMainFrame: MainFrame: Module compiling took 14.804 seconds
+[2019.09.24-13.54.54:965][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.09.24-13.54.54:974][972]LogClass: Could not find existing class TankBarrel in package /Script/BattelTank for HotReload, assuming new class
+[2019.09.24-13.54.54:980][972]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.24-13.54.54:983][972]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.24-13.54.55:090][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.09.24-13.54.55:108][972]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-13.54.55:108][972]Display: HotReload took 15.0s.
+[2019.09.24-13.54.55:109][972]Warning: HotReload operation took 15.0s.
+[2019.09.24-13.54.55:125][972]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.09.24-13.54.55:135][972]LogHotReload: New module detected: UE4Editor-BattelTank-1705.dll
+[2019.09.24-13.54.55:172][973]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.24-13.54.55:223][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.09.24-13.54.55:226][973]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.09.24-13.54.55:230][973]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.24-13.54.55:265][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.09.24-13.54.55:283][973]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-13.54.55:285][973]Display: HotReload took  0.1s.
+[2019.09.24-13.56.06:977][131]Cmd: SELECT NONE
+[2019.09.24-13.56.07:312][171]Cmd: SELECT NONE
+[2019.09.24-13.56.14:319][222]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (48.403 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.24-14.05.19:126][357]Candidate modules for hot reload:
+[2019.09.24-14.05.19:126][357]  BattelTank
+[2019.09.24-14.05.19:126][357]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,4877 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.05.19:129][357]Warning: Starting HotReload took  0.1s.
+[2019.09.24-14.05.30:078][438]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:05:30
+[2019.09.24-14.05.30:079][438]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.05.30:079][438]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.05.30:079][438]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.05.30:079][438]CompilerResultsLog: Reflection code generated for BattelTankEditor in 7,9425192 seconds
+[2019.09.24-14.05.30:079][438]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.05.30:079][438]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.09.24-14.05.30:079][438]CompilerResultsLog:   [1/5] TankAimingComponent.cpp
+[2019.09.24-14.05.30:079][438]CompilerResultsLog:    E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(17) : error C2440: =: ?????????? ?८?ࠧ????? "UStaticMeshComponent *" ? "UTankBarrel *"
+[2019.09.24-14.05.30:079][438]CompilerResultsLog:   E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(17): note: ????, ?? ??????? 㪠?뢠?? 㪠??⥫?, ?? ??易??; ??? ?८?ࠧ?????? ?ॡ????? reinterpret_cast, ?ਢ?????? ? ?⨫? ? ??? ?ਢ?????? ? ?⨫? ?㭪樨
+[2019.09.24-14.05.30:080][438]CompilerResultsLog:    E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(25) : error C2027: ?ᯮ?짮????? ????।???????? ⨯? "UTankBarrel"
+[2019.09.24-14.05.30:080][438]CompilerResultsLog:   E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.h(7): note:  ??. ??????? "UTankBarrel"
+[2019.09.24-14.05.30:080][438]CompilerResultsLog:    E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(39) : error C2027: ?ᯮ?짮????? ????।???????? ⨯? "UTankBarrel"
+[2019.09.24-14.05.30:080][438]CompilerResultsLog:   E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.h(7): note:  ??. ??????? "UTankBarrel"
+[2019.09.24-14.05.30:080][438]CompilerResultsLog:    E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(44) : error C2027: ?ᯮ?짮????? ????।???????? ⨯? "UTankBarrel"
+[2019.09.24-14.05.30:080][438]CompilerResultsLog:   E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.h(7): note:  ??. ??????? "UTankBarrel"
+[2019.09.24-14.05.30:080][438]CompilerResultsLog:   [2/5] TankBarrel.cpp
+[2019.09.24-14.05.30:080][438]LogMainFrame: MainFrame: Module compiling took 10.957 seconds
+[2019.09.24-14.05.30:080][438]Warning: HotReload failed, recompile failed
+[2019.09.24-14.05.34:563][615]LogSlate: Took 0.001783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.09.24-14.05.34:563][615]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '८ (U+096e)'
+Legacy localized fallback fonts were deprecated in 4.22 and will be removed in a future version!
+Please update your composite fonts to use localized sub-font families: https://docs.unrealengine.com/en-US/Engine/UMG/UserGuide/Fonts/Overview
+[2019.09.24-14.05.34:563][615]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '८ (U+096e)'
+[2019.09.24-14.05.34:568][615]LogSlate: Took 0.002458 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.09.24-14.08.16:091][482]Candidate modules for hot reload:
+[2019.09.24-14.08.16:091][482]  BattelTank
+[2019.09.24-14.08.16:092][482]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,90 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.08.16:094][482]Warning: Starting HotReload took  0.1s.
+[2019.09.24-14.08.17:074][573]LogSlate: Window 'Message Log' being destroyed
+[2019.09.24-14.08.17:077][573]LogSlate: Window 'Message Log' being destroyed
+[2019.09.24-14.08.23:423][937]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:08:23
+[2019.09.24-14.08.23:423][937]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.08.23:423][937]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.08.23:423][937]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.08.23:423][937]LogMainFrame: MainFrame: Module compiling took 7.334 seconds
+[2019.09.24-14.08.23:423][937]Warning: HotReload failed, recompile failed
+[2019.09.24-14.08.43:925][182]Candidate modules for hot reload:
+[2019.09.24-14.08.43:925][182]  BattelTank
+[2019.09.24-14.08.43:925][182]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,4099 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.08.43:927][182]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.09.05:150][682]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:09:05
+[2019.09.24-14.09.05:150][682]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.09.05:150][682]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.09.05:150][682]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,4174134 seconds
+[2019.09.24-14.09.05:150][682]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.09.05:150][682]CompilerResultsLog: Building 12 actions with 4 processes...
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   [1/12] Tank.gen.cpp
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   [2/12] TankPlayerController.gen.cpp
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   [3/12] TankAimingComponent.gen.cpp
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   [4/12] BattelTank.init.gen.cpp
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   [5/12] Tank.cpp
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   [6/12] TankPlayerController.cpp
+[2019.09.24-14.09.05:150][682]CompilerResultsLog:   [7/12] TankAimingComponent.cpp
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:    E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(25) : error C2027: ?ᯮ?짮????? ????।???????? ⨯? "UTankBarrel"
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:   E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.h(7): note:  ??. ??????? "UTankBarrel"
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:    E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(39) : error C2027: ?ᯮ?짮????? ????।???????? ⨯? "UTankBarrel"
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:   E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.h(7): note:  ??. ??????? "UTankBarrel"
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:    E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp(44) : error C2027: ?ᯮ?짮????? ????।???????? ⨯? "UTankBarrel"
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:   E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.h(7): note:  ??. ??????? "UTankBarrel"
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:   [8/12] TankAIController.gen.cpp
+[2019.09.24-14.09.05:151][682]CompilerResultsLog:   [9/12] TankAIController.cpp
+[2019.09.24-14.09.05:151][682]LogMainFrame: MainFrame: Module compiling took 21.229 seconds
+[2019.09.24-14.09.05:151][682]Warning: HotReload failed, recompile failed
+[2019.09.24-14.12.44:854][217]LogSlate: Window 'Message Log' being destroyed
+[2019.09.24-14.12.44:858][217]LogSlate: Window 'Message Log' being destroyed
+[2019.09.24-14.12.45:506][292]Candidate modules for hot reload:
+[2019.09.24-14.12.45:506][292]  BattelTank
+[2019.09.24-14.12.45:506][292]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,7547 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.12.45:508][292]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.13.01:355][363]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:13:01
+[2019.09.24-14.13.01:355][363]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.13.01:355][363]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.13.01:355][363]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.13.01:355][363]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,0504209 seconds
+[2019.09.24-14.13.01:356][363]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.13.01:356][363]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.09.24-14.13.01:356][363]CompilerResultsLog:   [1/4] TankAimingComponent.cpp
+[2019.09.24-14.13.01:356][363]CompilerResultsLog:   [2/4] UE4Editor-BattelTank-7547.lib
+[2019.09.24-14.13.01:356][363]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7547.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7547.exp
+[2019.09.24-14.13.01:356][363]CompilerResultsLog:   [3/4] UE4Editor-BattelTank-7547.dll
+[2019.09.24-14.13.01:356][363]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7547.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7547.suppressed.exp
+[2019.09.24-14.13.01:356][363]CompilerResultsLog:   [4/4] BattelTankEditor.target
+[2019.09.24-14.13.01:356][363]CompilerResultsLog: Total time in Parallel executor: 5,75 seconds
+[2019.09.24-14.13.01:356][363]CompilerResultsLog: Total execution time: 15,46 seconds
+[2019.09.24-14.13.01:356][363]LogMainFrame: MainFrame: Module compiling took 15.854 seconds
+[2019.09.24-14.13.01:392][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2019.09.24-14.13.01:397][363]LogClass: Could not find existing class Tank in package /Script/BattelTank for HotReload, assuming new class
+[2019.09.24-14.13.01:398][363]LogClass: Function SetBarrelReference is new.
+[2019.09.24-14.13.01:399][363]LogClass: Could not find existing class TankAimingComponent in package /Script/BattelTank for HotReload, assuming new class
+[2019.09.24-14.13.01:407][363]LogHotReload: Re-instancing Tank after hot-reload.
+[2019.09.24-14.13.01:517][363]LogHotReload: Re-instancing TankAimingComponent after hot-reload.
+[2019.09.24-14.13.01:622][363]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.09.24-14.13.01:626][363]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.24-14.13.01:701][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2019.09.24-14.13.01:719][363]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.13.01:720][363]Display: HotReload took 16.2s.
+[2019.09.24-14.13.22:746][ 19]LogBlueprint: Error: [Compiler BP_Tank] Can't connect pins  Barrel  and  Barrel to Set : Static Mesh Component Object Reference is not compatible with Tank Barrel Object Reference.
+[2019.09.24-14.13.22:746][ 19]LogBlueprint: Error: [Compiler BP_Tank] Can't connect pins  Barrel to Set  and  Barrel : Tank Barrel Object Reference is not compatible with Static Mesh Component Object Reference.
+[2019.09.24-14.13.22:749][ 19]LogBlueprint: Warning: [Compiler BP_Tank] [1158,16] Compile of BP_Tank failed. 2 Fatal Issue(s) 0 Warning(s) [in 10 ms] (/Game/blueprint/Tank/BP_Tank.BP_Tank)
+[2019.09.24-14.13.23:062][ 19]LogStaticMesh: Building static mesh tank_fbx_Barrel...
+[2019.09.24-14.13.23:103][ 19]LogStaticMesh: Built static mesh [0.04s] /Game/blueprint/Tank/tank_fbx_Barrel.tank_fbx_Barrel
+[2019.09.24-14.13.23:169][ 19]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.24-14.13.23:194][ 19]LogAssetEditorManager: Opening Asset editor for World /Game/Level/BattrlGround.BattrlGround
+[2019.09.24-14.13.23:225][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.09.24-14.13.23:226][ 19]Cmd: MAP LOAD FILE="E:/Udemy/buildingescape/BT/BattelTank/Content/Level/BattrlGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.24-14.13.23:226][ 19]LightingResults: New page: Lighting Build
+[2019.09.24-14.13.23:227][ 19]LoadErrors: New page: Loading map: BattrlGround.umap
+[2019.09.24-14.13.23:229][ 19]MapCheck: New page: Map Check
+[2019.09.24-14.13.23:229][ 19]LightingResults: New page: Lighting Build
+[2019.09.24-14.13.23:259][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.09.24-14.13.23:503][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.24-14.13.23:536][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.09.24-14.13.23:555][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.24-14.13.23:555][ 19]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,089ms to complete.
+[2019.09.24-14.13.23:555][ 19]LogFileHelpers: Loading map 'BattrlGround' took 0.330
+[2019.09.24-14.13.24:951][160]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.24-14.13.24:965][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.13.24:965][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.24-14.13.32:513][160]LogSlate: Window 'Message' being destroyed
+[2019.09.24-14.13.32:517][160]PIE: New page: PIE session: BattrlGround (24 сент. 2019 г., 20:13:32)
+[2019.09.24-14.13.32:530][160]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.24-14.13.32:622][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092177s)
+[2019.09.24-14.13.32:623][160]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.24-14.13.32:623][160]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.09.24-14.13.32:623][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.093346s)
+[2019.09.24-14.13.32:647][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.09.24-14.13.32:657][160]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.24-14.13.32:674][160]LogInit: FAudioDevice initialized.
+[2019.09.24-14.13.32:730][160]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.24-14.13.32:740][160]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.24-17.13.32
+[2019.09.24-14.13.32:741][160]LogWorld: Bringing up level for play took: 0.008003
+[2019.09.24-14.13.32:766][160]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.09.24-14.13.32:769][160]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 7,971
+[2019.09.24-14.13.32:769][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.13.38:099][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.13.38:100][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.13.38:131][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.24-14.13.38:132][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.13.38:166][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.13.38:172][793]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.09.24-14.13.38:226][795]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.09.24-14.13.49:301][891]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.24-14.14.01:477][180]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.14.01:830][180]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2019.09.24-14.14.03:196][181]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.24-14.15.00:540][604]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.15.00:544][604]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.15.07:157][286]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2019.09.24-14.15.09:171][286]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.24-14.15.09:251][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.09.24-14.15.09:289][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.09.24-14.15.09:324][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.09.24-14.15.12:960][661]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.15.14:648][751]BlueprintLog: New page: Compile BP_Tank
+[2019.09.24-14.15.14:885][751]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.09.24-14.15.15:953][817]LogRenderer: Reallocating scene render targets to support 1168x724 Format 9 NumSamples 1 (Frame:1).
+[2019.09.24-14.15.19:795][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.24-14.15.19:875][ 80]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.15.19:878][ 80]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.15.20:646][163]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.24-14.15.20:658][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.15.20:658][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.24-14.15.20:658][163]PIE: New page: PIE session: BattrlGround (24 сент. 2019 г., 20:15:20)
+[2019.09.24-14.15.20:658][163]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.24-14.15.20:715][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056309s)
+[2019.09.24-14.15.20:715][163]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.24-14.15.20:715][163]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2019.09.24-14.15.20:716][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.057227s)
+[2019.09.24-14.15.20:756][163]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2019.09.24-14.15.20:766][163]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.24-14.15.20:783][163]LogInit: FAudioDevice initialized.
+[2019.09.24-14.15.20:814][163]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.24-14.15.20:823][163]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.24-17.15.20
+[2019.09.24-14.15.20:823][163]LogWorld: Bringing up level for play took: 0.007770
+[2019.09.24-14.15.20:837][163]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 0,04
+[2019.09.24-14.15.20:838][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.15.26:315][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.15.26:316][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.15.26:347][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.24-14.15.26:348][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.15.26:389][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.15.26:395][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.09.24-14.15.26:421][816]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.09.24-14.15.27:434][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.24-14.15.27:629][923]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.15.44:119][387]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.15.44:122][387]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.15.45:151][498]Candidate modules for hot reload:
+[2019.09.24-14.15.45:152][498]  BattelTank
+[2019.09.24-14.15.45:152][498]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,1306 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.15.45:154][498]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:15:59
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.15.59:932][218]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,800818 seconds
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.09.24-14.15.59:932][218]CompilerResultsLog:   [1/4] TankAimingComponent.cpp
+[2019.09.24-14.15.59:932][218]CompilerResultsLog:   [2/4] UE4Editor-BattelTank-1306.lib
+[2019.09.24-14.15.59:932][218]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1306.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1306.exp
+[2019.09.24-14.15.59:932][218]CompilerResultsLog:   [3/4] UE4Editor-BattelTank-1306.dll
+[2019.09.24-14.15.59:932][218]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1306.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-1306.suppressed.exp
+[2019.09.24-14.15.59:932][218]CompilerResultsLog:   [4/4] BattelTankEditor.target
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Total time in Parallel executor: 2,72 seconds
+[2019.09.24-14.15.59:932][218]CompilerResultsLog: Total execution time: 14,67 seconds
+[2019.09.24-14.15.59:932][218]LogMainFrame: MainFrame: Module compiling took 14.783 seconds
+[2019.09.24-14.15.59:969][218]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.09.24-14.15.59:969][218]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.24-14.15.59:996][218]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.24-14.15.59:998][218]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.09.24-14.16.00:004][218]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.24-14.16.00:113][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.09.24-14.16.00:113][218]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.24-14.16.00:137][218]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.16.00:163][218]Display: HotReload took 15.0s.
+[2019.09.24-14.16.02:989][450]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.16.17:277][498]BlueprintLog: New page: Compile BP_Tank
+[2019.09.24-14.16.17:657][498]LogUObjectHash: Compacting FUObjectHashTables data took   9.99ms
+[2019.09.24-14.16.18:988][587]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.24-14.16.19:010][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.16.19:010][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.24-14.16.19:010][587]PIE: New page: PIE session: BattrlGround (24 сент. 2019 г., 20:16:19)
+[2019.09.24-14.16.19:011][587]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.24-14.16.19:069][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058523s)
+[2019.09.24-14.16.19:070][587]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.24-14.16.19:070][587]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2019.09.24-14.16.19:070][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.059544s)
+[2019.09.24-14.16.19:142][587]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.09.24-14.16.19:151][587]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.24-14.16.19:167][587]LogInit: FAudioDevice initialized.
+[2019.09.24-14.16.19:202][587]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.24-14.16.19:210][587]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.24-17.16.19
+[2019.09.24-14.16.19:210][587]LogWorld: Bringing up level for play took: 0.007806
+[2019.09.24-14.16.19:226][587]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 0,428
+[2019.09.24-14.16.19:227][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.16.22:825][946]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.09.24-14.16.26:049][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.16.26:050][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.16.26:085][321]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.24-14.16.26:086][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.16.26:130][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.16.26:138][321]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.09.24-14.16.26:164][322]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.09.24-14.16.29:269][686]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.24-14.16.57:446][  5]BlueprintLog: New page: Compile BP_Tank
+[2019.09.24-14.16.57:683][  5]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2019.09.24-14.17.17:446][296]LogHotReload: New module detected: UE4Editor-BattelTank-0007.dll
+[2019.09.24-14.17.18:469][300]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.24-14.17.18:518][300]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.09.24-14.17.18:518][300]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.24-14.17.18:545][300]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.24-14.17.18:547][300]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.24-14.17.18:553][300]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.24-14.17.18:664][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.09.24-14.17.18:664][300]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.24-14.17.18:689][300]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.17.18:693][300]Display: HotReload took  0.2s.
+[2019.09.24-14.17.42:785][331]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.17.42:789][331]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.18.02:668][634]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.20.28:321][447]BlueprintLog: New page: Compile BP_Tank
+[2019.09.24-14.20.28:697][447]LogUObjectHash: Compacting FUObjectHashTables data took   8.43ms
+[2019.09.24-14.20.36:922][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.24-14.20.40:514][269]BlueprintLog: New page: Compile BP_Tank
+[2019.09.24-14.20.40:836][269]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2019.09.24-14.21.57:343][452]BlueprintLog: New page: Compile BP_Tank
+[2019.09.24-14.21.57:584][452]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2019.09.24-14.21.58:112][499]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.21.58:116][499]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.21.59:045][598]Candidate modules for hot reload:
+[2019.09.24-14.21.59:045][598]  BattelTank
+[2019.09.24-14.21.59:045][598]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,5081 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.21.59:048][598]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.22.12:341][286]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:22:12
+[2019.09.24-14.22.12:341][286]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.22.12:342][286]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.24-14.22.12:342][286]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.22.12:342][286]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.22.12:343][286]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,1329021 seconds
+[2019.09.24-14.22.12:343][286]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.22.12:343][286]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.09.24-14.22.12:343][286]CompilerResultsLog:   [1/5] Tank.cpp
+[2019.09.24-14.22.12:343][286]CompilerResultsLog:   [2/5] TankAimingComponent.cpp
+[2019.09.24-14.22.12:344][286]CompilerResultsLog:   [3/5] UE4Editor-BattelTank-5081.lib
+[2019.09.24-14.22.12:344][286]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5081.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5081.exp
+[2019.09.24-14.22.12:345][286]CompilerResultsLog:   [4/5] UE4Editor-BattelTank-5081.dll
+[2019.09.24-14.22.12:345][286]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5081.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5081.suppressed.exp
+[2019.09.24-14.22.12:345][286]CompilerResultsLog:   [5/5] BattelTankEditor.target
+[2019.09.24-14.22.12:345][286]CompilerResultsLog: Total time in Parallel executor: 1,89 seconds
+[2019.09.24-14.22.12:346][286]CompilerResultsLog: Total execution time: 13,01 seconds
+[2019.09.24-14.22.12:346][286]LogMainFrame: MainFrame: Module compiling took 13.304 seconds
+[2019.09.24-14.22.12:384][286]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2019.09.24-14.22.12:385][286]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.24-14.22.12:411][286]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.24-14.22.12:414][286]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.24-14.22.12:419][286]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.24-14.22.12:529][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.09.24-14.22.12:529][286]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.24-14.22.12:554][286]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.22.12:554][286]Display: HotReload took 13.5s.
+[2019.09.24-14.22.18:618][382]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.23.33:567][327]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.23.33:570][327]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.23.34:327][405]Candidate modules for hot reload:
+[2019.09.24-14.23.34:327][405]  BattelTank
+[2019.09.24-14.23.34:327][405]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,181 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.23.34:330][405]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.23.47:386][902]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:23:47
+[2019.09.24-14.23.47:386][902]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.23.47:386][902]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.24-14.23.47:386][902]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.23.47:386][902]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.23.47:387][902]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,0541321 seconds
+[2019.09.24-14.23.47:387][902]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.23.47:387][902]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.09.24-14.23.47:388][902]CompilerResultsLog:   [1/4] Tank.cpp
+[2019.09.24-14.23.47:388][902]CompilerResultsLog:   [2/4] UE4Editor-BattelTank-0181.lib
+[2019.09.24-14.23.47:388][902]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-0181.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-0181.exp
+[2019.09.24-14.23.47:388][902]CompilerResultsLog:   [3/4] UE4Editor-BattelTank-0181.dll
+[2019.09.24-14.23.47:388][902]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-0181.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-0181.suppressed.exp
+[2019.09.24-14.23.47:389][902]CompilerResultsLog:   [4/4] BattelTankEditor.target
+[2019.09.24-14.23.47:389][902]CompilerResultsLog: Total time in Parallel executor: 2,09 seconds
+[2019.09.24-14.23.47:389][902]CompilerResultsLog: Total execution time: 12,95 seconds
+[2019.09.24-14.23.47:389][902]LogMainFrame: MainFrame: Module compiling took 13.066 seconds
+[2019.09.24-14.23.47:495][902]LogUObjectHash: Compacting FUObjectHashTables data took   6.40ms
+[2019.09.24-14.23.47:495][902]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.24-14.23.47:521][902]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.23.47:521][902]Display: HotReload took 13.2s.
+[2019.09.24-14.23.50:101][109]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.24.23:217][680]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2019.09.24-14.24.23:218][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattrlGround" FILE="E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/Level/BattrlGround_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.09.24-14.24.23:901][680]LogSavePackage: Moving 'E:/Udemy/buildingescape/BT/BattelTank/Saved/BattrlGround_Auto1900EBAFB4499F0F78689FFAF983D9BB9.tmp' to 'E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/Level/BattrlGround_Auto1.umap'
+[2019.09.24-14.24.23:904][680]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattrlGround' took 0.856
+[2019.09.24-14.24.23:904][680]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.856
+[2019.09.24-14.24.23:906][680]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprint/Tank/BP_Tank] ([1] browsable assets)...
+[2019.09.24-14.24.23:931][680]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank]
+[2019.09.24-14.24.23:932][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprint/Tank/BP_Tank]
+[2019.09.24-14.24.23:932][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprint/Tank/BP_Tank" FILE="E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/blueprint/Tank/BP_Tank_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.09.24-14.24.23:971][680]LogSavePackage: Moving 'E:/Udemy/buildingescape/BT/BattelTank/Saved/BP_Tank_Auto1E6FB3C92430749D8DC01ACB67A81767D.tmp' to 'E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/blueprint/Tank/BP_Tank_Auto1.uasset'
+[2019.09.24-14.24.23:973][680]LogFileHelpers: Auto-saving content packages took 0.068
+[2019.09.24-14.25.22:031][956]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.25.22:034][956]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.25.22:911][ 49]Candidate modules for hot reload:
+[2019.09.24-14.25.22:912][ 49]  BattelTank
+[2019.09.24-14.25.22:912][ 49]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,5351 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.25.22:914][ 49]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.25.35:564][152]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:25:35
+[2019.09.24-14.25.35:564][152]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.25.35:564][152]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.24-14.25.35:564][152]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.25.35:565][152]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.25.35:565][152]CompilerResultsLog: Reflection code generated for BattelTankEditor in 7,9884009 seconds
+[2019.09.24-14.25.35:565][152]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.25.35:566][152]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.09.24-14.25.35:566][152]CompilerResultsLog:   [1/4] Tank.cpp
+[2019.09.24-14.25.35:566][152]CompilerResultsLog:   [2/4] UE4Editor-BattelTank-5351.lib
+[2019.09.24-14.25.35:566][152]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5351.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5351.exp
+[2019.09.24-14.25.35:566][152]CompilerResultsLog:   [3/4] UE4Editor-BattelTank-5351.dll
+[2019.09.24-14.25.35:567][152]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5351.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5351.suppressed.exp
+[2019.09.24-14.25.35:567][152]CompilerResultsLog:   [4/4] BattelTankEditor.target
+[2019.09.24-14.25.35:567][152]CompilerResultsLog: Total time in Parallel executor: 1,59 seconds
+[2019.09.24-14.25.35:567][152]CompilerResultsLog: Total execution time: 12,25 seconds
+[2019.09.24-14.25.35:567][152]LogMainFrame: MainFrame: Module compiling took 12.658 seconds
+[2019.09.24-14.25.35:644][152]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2019.09.24-14.25.35:645][152]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.24-14.25.35:672][152]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.24-14.25.35:674][152]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.24-14.25.35:681][152]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.24-14.25.35:790][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.09.24-14.25.35:790][152]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.24-14.25.35:816][152]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.25.35:817][152]Display: HotReload took 12.9s.
+[2019.09.24-14.25.50:089][345]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.32.00:602][309]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.32.00:606][309]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.32.01:308][381]Candidate modules for hot reload:
+[2019.09.24-14.32.01:309][381]  BattelTank
+[2019.09.24-14.32.01:309][381]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,7523 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.32.01:311][381]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.32.14:273][474]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:32:14
+[2019.09.24-14.32.14:274][474]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.32.14:274][474]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.24-14.32.14:274][474]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.32.14:274][474]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.32.14:275][474]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,0090234 seconds
+[2019.09.24-14.32.14:275][474]CompilerResultsLog: Error: E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\Tank.cpp(1) : error: Expected Tank.h to be first header included.
+[2019.09.24-14.32.14:276][474]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.32.14:276][474]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.09.24-14.32.14:276][474]CompilerResultsLog:   [1/4] Tank.cpp
+[2019.09.24-14.32.14:276][474]CompilerResultsLog:   [2/4] UE4Editor-BattelTank-7523.lib
+[2019.09.24-14.32.14:276][474]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7523.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7523.exp
+[2019.09.24-14.32.14:277][474]CompilerResultsLog:   [3/4] UE4Editor-BattelTank-7523.dll
+[2019.09.24-14.32.14:277][474]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7523.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-7523.suppressed.exp
+[2019.09.24-14.32.14:278][474]CompilerResultsLog:   [4/4] BattelTankEditor.target
+[2019.09.24-14.32.14:278][474]CompilerResultsLog: Total time in Parallel executor: 1,67 seconds
+[2019.09.24-14.32.14:278][474]CompilerResultsLog: Total execution time: 12,52 seconds
+[2019.09.24-14.32.14:278][474]LogMainFrame: MainFrame: Module compiling took 12.972 seconds
+[2019.09.24-14.32.14:383][474]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2019.09.24-14.32.14:383][474]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.24-14.32.14:412][474]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.24-14.32.14:415][474]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.09.24-14.32.14:421][474]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.24-14.32.14:581][474]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2019.09.24-14.32.14:582][474]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.24-14.32.14:606][474]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.32.14:607][474]Display: HotReload took 13.3s.
+[2019.09.24-14.32.34:279][648]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.33.01:554][660]BlueprintLog: New page: Compile BP_Tank
+[2019.09.24-14.33.01:930][660]LogUObjectHash: Compacting FUObjectHashTables data took   6.87ms
+[2019.09.24-14.33.02:774][707]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.24-14.33.02:793][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.02:793][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.24-14.33.02:794][707]PIE: New page: PIE session: BattrlGround (24 сент. 2019 г., 20:33:02)
+[2019.09.24-14.33.02:794][707]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.24-14.33.02:851][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056656s)
+[2019.09.24-14.33.02:851][707]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.24-14.33.02:852][707]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2019.09.24-14.33.02:852][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.058027s)
+[2019.09.24-14.33.02:926][707]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2019.09.24-14.33.02:935][707]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.24-14.33.02:951][707]LogInit: FAudioDevice initialized.
+[2019.09.24-14.33.02:982][707]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.24-14.33.02:991][707]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.24-17.33.02
+[2019.09.24-14.33.02:991][707]LogWorld: Bringing up level for play took: 0.008181
+[2019.09.24-14.33.03:007][707]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 0,209
+[2019.09.24-14.33.03:007][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.06:462][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.06:462][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.33.06:495][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.24-14.33.06:496][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.06:538][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.33.06:545][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.09.24-14.33.06:573][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.09.24-14.33.07:205][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.24-14.33.08:885][345]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.24-14.33.08:895][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.08:896][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.24-14.33.08:896][345]PIE: New page: PIE session: BattrlGround (24 сент. 2019 г., 20:33:08)
+[2019.09.24-14.33.08:896][345]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.24-14.33.08:952][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055405s)
+[2019.09.24-14.33.08:952][345]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.24-14.33.08:953][345]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2019.09.24-14.33.08:953][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.056746s)
+[2019.09.24-14.33.08:990][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.09.24-14.33.08:999][345]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.24-14.33.09:014][345]LogInit: FAudioDevice initialized.
+[2019.09.24-14.33.09:040][345]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.24-14.33.09:048][345]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.24-17.33.09
+[2019.09.24-14.33.09:049][345]LogWorld: Bringing up level for play took: 0.007828
+[2019.09.24-14.33.09:063][345]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 0,266
+[2019.09.24-14.33.09:064][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.14:489][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.14:490][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.33.14:523][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.24-14.33.14:524][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.24-14.33.14:565][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.24-14.33.14:572][991]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.09.24-14.33.14:599][992]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.09.24-14.33.15:251][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.24-14.34.33:590][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.09.24-14.34.33:591][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattrlGround" FILE="E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/Level/BattrlGround_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.09.24-14.34.34:223][311]LogSavePackage: Moving 'E:/Udemy/buildingescape/BT/BattelTank/Saved/BattrlGround_Auto2D43330BC48282D43E7D9A48E0CA73860.tmp' to 'E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/Level/BattrlGround_Auto2.umap'
+[2019.09.24-14.34.34:225][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattrlGround' took 0.680
+[2019.09.24-14.34.34:225][311]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.680
+[2019.09.24-14.34.34:227][311]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprint/Tank/BP_Tank] ([1] browsable assets)...
+[2019.09.24-14.34.34:269][311]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank]
+[2019.09.24-14.34.34:269][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprint/Tank/BP_Tank]
+[2019.09.24-14.34.34:270][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprint/Tank/BP_Tank" FILE="E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/blueprint/Tank/BP_Tank_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.09.24-14.34.34:312][311]LogSavePackage: Moving 'E:/Udemy/buildingescape/BT/BattelTank/Saved/BP_Tank_Auto2F86B5BDA4C4D16109F040384426C2B06.tmp' to 'E:/Udemy/buildingescape/BT/BattelTank/Saved/Autosaves/Game/blueprint/Tank/BP_Tank_Auto2.uasset'
+[2019.09.24-14.34.34:313][311]LogFileHelpers: Auto-saving content packages took 0.087
+[2019.09.24-14.35.47:983][655]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.35.47:987][655]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.35.49:332][804]Candidate modules for hot reload:
+[2019.09.24-14.35.49:332][804]  BattelTank
+[2019.09.24-14.35.49:333][804]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,9382 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.24-14.35.49:335][804]Warning: Starting HotReload took  0.0s.
+[2019.09.24-14.36.26:304][930]CompilerResultsLog: New page: Compilation - 24 сент. 2019 г., 20:36:26
+[2019.09.24-14.36.26:305][930]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.24-14.36.26:305][930]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.24-14.36.26:305][930]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.24-14.36.26:305][930]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.24-14.36.26:306][930]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,3520899 seconds
+[2019.09.24-14.36.26:306][930]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.24-14.36.26:306][930]CompilerResultsLog: Building 12 actions with 4 processes...
+[2019.09.24-14.36.26:306][930]CompilerResultsLog:   [1/12] Tank.gen.cpp
+[2019.09.24-14.36.26:306][930]CompilerResultsLog:   [2/12] TankPlayerController.gen.cpp
+[2019.09.24-14.36.26:306][930]CompilerResultsLog:   [3/12] TankAimingComponent.gen.cpp
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:   [4/12] BattelTank.init.gen.cpp
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:   [5/12] Tank.cpp
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:   [6/12] TankPlayerController.cpp
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:   [7/12] TankAimingComponent.cpp
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:   [8/12] TankAIController.gen.cpp
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:   [9/12] TankAIController.cpp
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:   [10/12] UE4Editor-BattelTank-9382.lib
+[2019.09.24-14.36.26:307][930]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-9382.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-9382.exp
+[2019.09.24-14.36.26:308][930]CompilerResultsLog:   [11/12] UE4Editor-BattelTank-9382.dll
+[2019.09.24-14.36.26:308][930]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-9382.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-9382.suppressed.exp
+[2019.09.24-14.36.26:308][930]CompilerResultsLog:   [12/12] BattelTankEditor.target
+[2019.09.24-14.36.26:309][930]CompilerResultsLog: Total time in Parallel executor: 25,42 seconds
+[2019.09.24-14.36.26:309][930]CompilerResultsLog: Total execution time: 36,86 seconds
+[2019.09.24-14.36.26:309][930]LogMainFrame: MainFrame: Module compiling took 36.978 seconds
+[2019.09.24-14.36.26:349][930]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2019.09.24-14.36.26:349][930]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.24-14.36.26:364][930]LogClass: Could not find existing class TankAimingComponent in package /Script/BattelTank for HotReload, assuming new class
+[2019.09.24-14.36.26:381][930]LogHotReload: Re-instancing TankAimingComponent after hot-reload.
+[2019.09.24-14.36.26:579][930]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.24-14.36.26:582][930]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.09.24-14.36.26:587][930]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.24-14.36.26:695][930]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.09.24-14.36.26:695][930]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.24-14.36.26:721][930]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2739 classes and 663 folders.
+[2019.09.24-14.36.26:721][930]Display: HotReload took 37.4s.
+[2019.09.24-14.36.28:759][ 36]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.24-14.36.34:400][393]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.36.34:404][393]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.24-14.36.36:177][577]LogUObjectHash: Compacting FUObjectHashTables data took   6.56ms
+[2019.09.24-14.36.37:532][577]LogSlate: Window 'Save Content' being destroyed
+[2019.09.24-14.36.37:553][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprint/Tank/BP_Tank" FILE="E:/Udemy/buildingescape/BT/BattelTank/Content/blueprint/Tank/BP_Tank.uasset" SILENT=true
+[2019.09.24-14.36.37:583][577]LogSavePackage: Moving 'E:/Udemy/buildingescape/BT/BattelTank/Saved/BP_Tank971DC1E24E3CA3D2D736DF90CF87C4F6.tmp' to 'E:/Udemy/buildingescape/BT/BattelTank/Content/blueprint/Tank/BP_Tank.uasset'
+[2019.09.24-14.36.37:587][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattrlGround" FILE="E:/Udemy/buildingescape/BT/BattelTank/Content/Level/BattrlGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.24-14.36.37:658][577]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2019.09.24-14.36.38:250][577]LogSavePackage: Moving 'E:/Udemy/buildingescape/BT/BattelTank/Saved/BattrlGround586C3E384A0E89F0295FF0B681476042.tmp' to 'E:/Udemy/buildingescape/BT/BattelTank/Content/Level/BattrlGround.umap'
+[2019.09.24-14.36.38:271][577]LogFileHelpers: Saving map 'BattrlGround' took 0.684
+[2019.09.24-14.36.38:328][577]LogSlate: Window 'BattelTank - Unreal Editor' being destroyed
+[2019.09.24-14.36.38:329][577]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.24-14.36.38:562][578]Cmd: QUIT_EDITOR
+[2019.09.24-14.36.38:941][578]LogExit: Preparing to exit.
+[2019.09.24-14.36.39:199][578]LogExit: Editor shut down
+[2019.09.24-14.36.39:200][578]LogExit: Transaction tracking system shut down
+[2019.09.24-14.36.39:493][578]LogExit: Object subsystem successfully closed.
+[2019.09.24-14.36.39:504][578]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.09.24-14.36.39:509][578]LogD3D11RHI: Shutdown
+[2019.09.24-14.36.39:509][578]LogD3D11RHI: CleanupD3DDevice
+[2019.09.24-14.36.39:509][578]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.24-14.36.39:509][578]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.24-14.36.39:509][578]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.24-14.36.39:509][578]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.24-14.36.39:509][578]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.24-14.36.39:509][578]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.24-14.36.39:636][578]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module BattelTank (663)
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module BlueprintGraph (657)
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (655)
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module Voice (653)
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module MeshBuilder (651)
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module SceneOutliner (644)
+[2019.09.24-14.36.39:664][578]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (634)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.09.24-14.36.39:666][578]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.09.24-14.36.39:667][578]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.09.24-14.36.39:668][578]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.09.24-14.36.39:668][578]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.09.24-14.36.39:668][578]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.09.24-14.36.39:668][578]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.09.24-14.36.39:668][578]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.09.24-14.36.39:668][578]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.09.24-14.36.40:141][578]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.09.24-14.36.40:142][578]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.09.24-14.36.40:143][578]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.09.24-14.36.40:143][578]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.09.24-14.36.40:143][578]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.09.24-14.36.40:143][578]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.09.24-14.36.40:143][578]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.09.24-14.36.40:143][578]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.09.24-14.36.40:143][578]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.09.24-14.36.40:187][578]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.09.24-14.36.40:191][578]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.09.24-14.36.40:191][578]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.09.24-14.36.40:193][578]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.09.24-14.36.40:198][578]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.09.24-14.36.40:279][578]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.09.24-14.36.40:280][578]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.09.24-14.36.40:381][578]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.09.24-14.36.40:482][578]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.09.24-14.36.40:482][578]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.09.24-14.36.40:483][578]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.09.24-14.36.40:483][578]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.09.24-14.36.40:483][578]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.09.24-14.36.40:483][578]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.09.24-14.36.40:484][578]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.09.24-14.36.40:485][578]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.09.24-14.36.40:485][578]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.09.24-14.36.40:485][578]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.09.24-14.36.40:485][578]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.09.24-14.36.40:485][578]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.09.24-14.36.40:485][578]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.09.24-14.36.40:486][578]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.09.24-14.36.40:488][578]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.09.24-14.36.40:540][578]LogDerivedDataCache: Shutdown
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.09.24-14.36.40:540][578]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.09.24-14.36.40:541][578]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.09.24-14.36.40:541][578]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.09.24-14.36.40:541][578]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.09.24-14.36.40:541][578]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.09.24-14.36.40:541][578]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.09.24-14.36.40:542][578]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.09.24-14.36.40:542][578]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.09.24-14.36.40:543][578]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.09.24-14.36.40:543][578]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.09.24-14.36.40:551][578]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.09.24-14.36.40:552][578]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.09.24-14.36.40:552][578]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.09.24-14.36.40:552][578]LogHMD: Freeing OpenVRDLLHandle.
+[2019.09.24-14.36.40:552][578]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.09.24-14.36.40:552][578]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.09.24-14.36.40:552][578]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.09.24-14.36.40:552][578]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.09.24-14.36.40:552][578]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.09.24-14.36.40:553][578]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.09.24-14.36.40:553][578]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.09.24-14.36.40:578][578]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.09.24-14.36.40:578][578]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.24-14.36.40:578][578]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7CC43020-4A6C-BB49-ED46-D6A12E1C8D76%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=f4f9aaf44a90a9dc1f143fac439d5a84%7C89e7ed40e4914bd19744c00cbfcade47%7C40f98fa2-e917-49d6-9fc1-987f849b52cc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.24-14.36.40:583][578]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.09.24-14.36.40:584][578]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.09.24-14.36.40:586][578]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.09.24-14.36.40:592][578]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.09.24-14.36.40:592][578]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.09.24-14.36.40:593][578]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.09.24-14.36.40:593][578]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.09.24-14.36.40:593][578]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.09.24-14.36.40:594][578]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.09.24-14.36.40:594][578]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.09.24-14.36.40:594][578]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.09.24-14.36.40:594][578]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.09.24-14.36.40:595][578]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.09.24-14.36.40:595][578]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.09.24-14.36.40:595][578]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.09.24-14.36.40:595][578]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.09.24-14.36.40:596][578]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.09.24-14.36.40:601][578]LogExit: Exiting.
+[2019.09.24-14.36.40:632][578]Log file closed, 09/24/19 17:36:40
