@@ -20,9 +20,16 @@ public:
 	void SetBarrelRefernce(UTankBarrel* BarrelToSet);//Óñòàíàâëèâàåò ññûëêó íà ñòâîë òàíêà
 
 private:
+<<<<<<< HEAD
 
 	UPROPERTY(EditAnywhere)
 	UTankBarrel* Barrel = nullptr;
 
 	void MoveBarrelTowards(FVector AimDir);//Ïåðåìåñòèòü ñòâîë â íàïðàâëåíèå
 };
+=======
+	UStaticMeshComponent* Barrel = nullptr;
+
+	void MoveBarrelTowards(FVector AimDir);//����������� ����� � �����������
+};
+>>>>>>> origin/master
