@@ -2,8 +2,16 @@
 
 
 #include "TankBarrel.h"
+#include "Engine/World.h"
 
-void UTankBarrel::Elevate(float DegrresPerSecond)
+void UTankBarrel::Elevate(float RelativeSpeed)
 {
-	UE_LOG(LogTemp, Warning, TEXT("barrel elevate called at speed %f:"), DegrresPerSecond);
+	RelativeSpeed = FMath::Clamp<float>(RelativeSpeed, -1, 1);
+
+	auto ElevationChage = RelativeSpeed * MaxDegreesPerSecond * GetWorld()->DeltaTimeSeconds;//Изменение высоты
+	auto RawNewElevation = RelativeRotation.Pitch + ElevationChage;// New Elevation
+	auto Elevation = FMath::Clamp(RawNewElevation, MinElevationDegrees, MaxElevationDegrees);//Limitation of elevation Barrel
+
+	SetRelativeRotation(FRotator(Elevation, 0, 0));
+
 }
