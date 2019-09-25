@@ -18,4 +18,12 @@ class BATTELTANK_API UTankBarrel : public UStaticMeshComponent
 public:
 	UFUNCTION(BlueprintCallable)
 	void Elevate(float DegrresPerSecond);
+
+private:
+	 
+	UPROPERTY(EditAnywhere, category = "Setup")
+	float MaxDegreesPerSecond = 20;//
+
+	UPROPERTY(EditAnywhere, category = "Setup")
+	float MaxElevationDegrees= 40;//
 };
