@@ -36,8 +36,8 @@ private:
 
 	bool GetLoolVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
 
-	//Метод перемещает ствол танка так,
-	//что бы можно было выстрелить туда где прицел пересикается с миром
+	// Method moves the barrel of the tank so
+	// so that you can shoot where the sight crosses the world
 	void AimTowardsCrosshair();
 
 	// Return an Out paramete,  true if hit landscape

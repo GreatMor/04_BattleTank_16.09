@@ -8,7 +8,7 @@
 
 ATank* ATankPlayerController::GetControlledTank() const
 {
-	return Cast<ATank>(GetPawn());//Передаём типу АТанк пешку которой он владеет
+	return Cast<ATank>(GetPawn());// We transfer to the ATank type a pawn which he owns
 }
 
 void ATankPlayerController::BeginPlay()
@@ -39,7 +39,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 	FVector HitLocation; // OutParameter	
 
 	if (!GetControlledTank()) { return; }
-	if (GetSighetHitLocation(HitLocation)) // Все права защищены.
+	if (GetSighetHitLocation(HitLocation)) // All rights reserved.
 	{
 		GetControlledTank()->AimAt(HitLocation);
 	}
@@ -54,6 +54,7 @@ bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
 	// (Найти положение прицела)
 	int32 ViewportSizeX, ViewportSizeY;//Out parametre
 	GetViewportSize(ViewportSizeX, ViewportSizeY);//Получение размера монитора
+
 	auto ScreenLocation = FVector2D(ViewportSizeX * CrossHairXLocation, ViewportSizeY * CrossHairYLocation);
 	FVector LookDirection; // OUT param
 
@@ -64,7 +65,8 @@ bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
 	return true;
 }
 
-// Получить направление прицела
+
+// Get the direction of the sight
 bool ATankPlayerController::GetLookDirektion(FVector2D ScreenLocation, FVector& LookDirection)const
 {
 	FVector CameraWorldLocation;//Out parametre

@@ -10,11 +10,11 @@ ATank* ATankAIController::GetControlledTank() const
 
 ATank* ATankAIController::GetPlayerTank() const
 {
-	auto PlayerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();// Получаем пешку игрока 
+	auto PlayerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();// Get the player pawn
 
 	if (!PlayerPawn) { return nullptr; }
 
-	return Cast<ATank>(PlayerPawn); //Предаёт в тип АТанка PlayerPawn
+	return Cast<ATank>(PlayerPawn); // Gives to the type of ATank PlayerPawn
 }
 
 void ATankAIController::Tick(float DeltaTime)

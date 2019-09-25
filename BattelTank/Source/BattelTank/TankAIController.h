@@ -22,7 +22,7 @@ private:
 
 	ATank* GetControlledTank() const;
 
-	ATank* GetPlayerTank()const; //Вернёт указатель на танк игрока
+	ATank* GetPlayerTank()const; //Will return a pointer to the player’s tank
 
 	virtual void Tick(float DeltaTime) override;
 

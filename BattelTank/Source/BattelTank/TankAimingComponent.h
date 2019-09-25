@@ -17,19 +17,14 @@ public:
 
 	void AimAt(FVector HitLocation, float LounchSpeed);
 
-	void SetBarrelRefernce(UTankBarrel* BarrelToSet);//Óñòàíàâëèâàåò ññûëêó íà ñòâîë òàíêà
+	void SetBarrelRefernce(UTankBarrel* BarrelToSet);// Sets the link to the tank barrel
 
 private:
-<<<<<<< HEAD
 
 	UPROPERTY(EditAnywhere)
 	UTankBarrel* Barrel = nullptr;
 
-	void MoveBarrelTowards(FVector AimDir);//Ïåðåìåñòèòü ñòâîë â íàïðàâëåíèå
+	void MoveBarrelTowards(FVector AimDir);	// Move barrel to direction
 };
-=======
-	UStaticMeshComponent* Barrel = nullptr;
+	
 
-	void MoveBarrelTowards(FVector AimDir);//����������� ����� � �����������
-};
->>>>>>> origin/master
