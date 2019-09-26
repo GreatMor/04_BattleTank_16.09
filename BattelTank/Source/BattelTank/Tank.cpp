@@ -10,13 +10,16 @@ ATank::ATank()
 
 	//Create a default component for the tank
 	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(FName("Aiming Component"));
-
 }
 
 void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
 {
-	TankAimingComponent->SetBarrelRefernce(BarrelToSet);}
-
+	TankAimingComponent->SetBarrelRefernce(BarrelToSet);
+}
+void ATank::SetTurretlReference(UTankTurret* TurretToSet)
+{
+	TankAimingComponent->SetTurretRefernce(TurretToSet);
+}
 
 // Called to bind functionality to input
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

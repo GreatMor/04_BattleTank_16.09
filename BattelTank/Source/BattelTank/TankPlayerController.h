@@ -21,13 +21,13 @@ private:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-		float CrossHairXLocation = 0.5f;
+	float CrossHairXLocation = 0.5f;
 
 	UPROPERTY(EditAnywhere)
-		float CrossHairYLocation = 0.33333f;
+	float CrossHairYLocation = 0.33333f;
 
 	UPROPERTY(EditAnywhere)
-		float LineTraceRange = 1000000;
+	float LineTraceRange = 1000000;
 
 	bool GetLookDirektion(FVector2D ScreenLocation, FVector& LookDirection) const;
 

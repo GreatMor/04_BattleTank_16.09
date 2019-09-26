@@ -42,7 +42,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 	if (!GetControlledTank()) { return; }
 	if (GetSighetHitLocation(HitLocation)) // All rights reserved.
 	{
-		GetControlledTank()->AimAt(HitLocation);
+		GetControlledTank()->AimAt(HitLocation);	
 	}
 
 }
