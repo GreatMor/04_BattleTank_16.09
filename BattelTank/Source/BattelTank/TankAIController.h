@@ -19,10 +19,6 @@ private:
 
 	void BeginPlay() override;
 
-	ATank* GetControlledTank() const;
-
-	ATank* GetPlayerTank()const; //Will return a pointer to the player’s tank
-
 	virtual void Tick(float DeltaTime) override;
 
 };
