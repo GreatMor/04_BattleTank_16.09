@@ -2,6 +2,7 @@
 
 
 #include "Projectile.h"
+#include "Engine/World.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -9,6 +10,9 @@ AProjectile::AProjectile()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//Create a default Movement component for the tank
+	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(FName("Movement Component"));
+	ProjectileMovement->bAutoActivate = false;
 }
 
 // Called when the game starts or when spawned
@@ -25,3 +29,12 @@ void AProjectile::Tick(float DeltaTime)
 
 }
 
+void AProjectile::LaunchProjectile(float SpeedProjectile)
+{
+	auto Time = GetWorld()->DeltaTimeSeconds;
+	UE_LOG(LogTemp, Warning, TEXT("%f fire projectile %f"), Time, SpeedProjectile);
+
+	ProjectileMovement->SetVelocityInLocalSpace(FVector::ForwardVector * SpeedProjectile);
+
+	ProjectileMovement->Activate();//Active projectile movement after the projectile flies
+}

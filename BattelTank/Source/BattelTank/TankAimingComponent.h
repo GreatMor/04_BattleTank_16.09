@@ -17,7 +17,7 @@ public:
 	// Sets default values for this component's properties
 	UTankAimingComponent();
 
-	void AimAt(FVector HitLocation, float LounchSpeed);
+	void AimAt(FVector HitLocation, float LaunchSpeed);
 	void SetBarrelRefernce(UTankBarrel* BarrelToSet);// Sets the link to the tank barrel
 	void SetTurretRefernce(UTankTurret* TurretToSet);// Sets the link to the tank turret
 

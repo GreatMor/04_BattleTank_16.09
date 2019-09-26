@@ -1,0 +1,916 @@
+﻿Log file open, 09/26/19 15:02:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BattelTank
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.194216
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Xeon(R) CPU           W3565  @ 3.20GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.26-12.02.30:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.26-12.02.30:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.26-12.02.30:115][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.26-12.02.30:118][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.26-12.02.30:118][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.26-12.02.30:119][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.26-12.02.30:119][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.26-12.02.30:119][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.26-12.02.30:131][  0]LogHAL: Display: Platform has ~ 12 GB [12867313664 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.26-12.02.30:131][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.26-12.02.30:131][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.26-12.02.30:131][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Scalability.ini]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.26-12.02.30:132][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Udemy/buildingescape/BT/BattelTank/Saved/Config/Windows/Engine.ini]
+[2019.09.26-12.02.30:133][  0]LogInit: Computer: COMPUTER
+[2019.09.26-12.02.30:133][  0]LogInit: User: Happy
+[2019.09.26-12.02.30:133][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.26-12.02.30:133][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.26-12.02.30:133][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2019.09.26-12.02.30:133][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.26-12.02.30:133][  0]LogMemory: Process Physical Memory: 100.40 MB used, 100.41 MB peak
+[2019.09.26-12.02.30:133][  0]LogMemory: Process Virtual Memory: 92.11 MB used, 92.11 MB peak
+[2019.09.26-12.02.30:133][  0]LogMemory: Physical Memory: 6544.93 MB used,  5726.29 MB free, 12271.23 MB total
+[2019.09.26-12.02.30:133][  0]LogMemory: Virtual Memory: 4647.75 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.09.26-12.02.30:152][  0]LogInit: Using OS detected language (ru-RU).
+[2019.09.26-12.02.30:152][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.09.26-12.02.30:153][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.09.26-12.02.30:153][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2019.09.26-12.02.30:153][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2019.09.26-12.02.30:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2019.09.26-12.02.30:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2019.09.26-12.02.30:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2019.09.26-12.02.30:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2019.09.26-12.02.30:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2019.09.26-12.02.30:155][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.26-12.02.30:180][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.26-12.02.30:180][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.26-12.02.30:377][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.26-12.02.30:377][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.26-12.02.30:454][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.09.26-12.02.30:454][  0]LogD3D11RHI:       4018/0/6135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.26-12.02.30:456][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.26-12.02.30:457][  0]LogD3D11RHI:       0/0/6135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.26-12.02.30:457][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.26-12.02.30:464][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.26-12.02.30:464][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.26-12.02.30:464][  0]LogWindows: EnumDisplayDevices:
+[2019.09.26-12.02.30:464][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.09.26-12.02.30:465][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.09.26-12.02.30:465][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.09.26-12.02.30:465][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.09.26-12.02.30:465][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.09.26-12.02.30:465][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.09.26-12.02.30:465][  0]LogD3D11RHI:   Driver Version: 436.30 (internal:26.21.14.3630, unified:436.30)
+[2019.09.26-12.02.30:465][  0]LogD3D11RHI:      Driver Date: 9-5-2019
+[2019.09.26-12.02.30:465][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.09.26-12.02.30:515][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.26-12.02.30:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.26-12.02.30:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.26-12.02.30:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.26-12.02.30:533][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.26-12.02.30:876][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.26-12.02.30:894][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.26-12.02.30:912][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.26-12.02.30:930][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.26-12.02.30:949][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.26-12.02.30:968][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.26-12.02.30:986][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.26-12.02.31:004][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.26-12.02.31:013][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.26-12.02.31:122][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.26-12.02.31:124][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.26-12.02.31:189][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.26-12.02.31:189][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.26-12.02.31:221][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.26-12.02.31:221][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.26-12.02.31:237][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.26-12.02.31:254][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.26-12.02.31:272][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.26-12.02.31:289][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.26-12.02.31:352][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.26-12.02.31:352][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.26-12.02.31:352][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.26-12.02.31:362][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.26-12.02.31:418][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/Udemy/buildingescape/BT/BattelTank/Intermediate/Shaders/WorkingDirectory/3928/).
+[2019.09.26-12.02.31:418][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Happy/AppData/Local/Temp/UnrealShaderWorkingDir/61B9847C499834F74B0C119C7814D766/'.
+[2019.09.26-12.02.31:421][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.26-12.02.31:421][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.26-12.02.31:421][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.26-12.02.32:222][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.26-12.02.32:281][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Happy/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.26-12.02.32:281][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Happy/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.26-12.02.32:282][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Udemy/buildingescape/BT/BattelTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.26-12.02.32:282][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.26-12.02.32:282][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Udemy/buildingescape/BT/BattelTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.26-12.02.32:282][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.26-12.02.32:297][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.26-12.02.32:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.26-12.02.32:297][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.26-12.02.32:309][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Happy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.26-12.02.32:309][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.26-12.02.32:309][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.26-12.02.32:340][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.26-12.02.32:341][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.26-12.02.32:342][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.26-12.02.32:440][  0]LogAssetRegistry: FAssetRegistry took 0.0384 seconds to start up
+[2019.09.26-12.02.32:969][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.26-12.02.33:047][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.26-12.02.33:047][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.26-12.02.33:047][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.26-12.02.33:047][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.26-12.02.33:047][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.26-12.02.33:174][  0]LogNetVersion: BattelTank 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3957860822)
+[2019.09.26-12.02.33:729][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043274 seconds
+[2019.09.26-12.02.33:740][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.26-12.02.33:740][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.26-12.02.33:740][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.26-12.02.34:768][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.26-12.02.34:782][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.26-12.02.34:913][  0]SourceControl: Source control is disabled
+[2019.09.26-12.02.34:914][  0]SourceControl: Source control is disabled
+[2019.09.26-12.02.34:915][  0]SourceControl: Source control is disabled
+[2019.09.26-12.02.34:916][  0]SourceControl: Source control is disabled
+[2019.09.26-12.02.35:000][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.26-12.02.35:085][  0]LogOcInput: OculusInput pre-init called
+[2019.09.26-12.02.35:914][  0]LogEngine: Initializing Engine...
+[2019.09.26-12.02.35:915][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.26-12.02.35:916][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.26-12.02.36:197][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.26-12.02.36:213][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.26-12.02.36:232][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-12.02.36:285][  0]LogInit: FAudioDevice initialized.
+[2019.09.26-12.02.36:285][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.26-12.02.36:998][  0]LogDerivedDataCache: Saved boot cache 0.71s 71MB C:/Users/Happy/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.26-12.02.37:021][  0]LogInit: Texture streaming: Enabled
+[2019.09.26-12.02.37:043][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.26-12.02.37:066][  0]LogInit: Transaction tracking system initialized
+[2019.09.26-12.02.37:095][  0]BlueprintLog: New page: Editor Load
+[2019.09.26-12.02.37:195][  0]LocalizationService: Localization service is disabled
+[2019.09.26-12.02.37:568][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Content/' took 0.01s
+[2019.09.26-12.02.37:568][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.26-12.02.37:568][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.26-12.02.37:666][  0]LogLinker: Warning: Can't find file '/Game/terrain/physics/water'
+[2019.09.26-12.02.37:666][  0]LogLinker: Warning: Can't find file for asset '/Game/terrain/physics/water' while loading NULL.
+[2019.09.26-12.02.37:667][  0]LogLinker: Warning: Can't find file '/Game/terrain/physics/water'
+[2019.09.26-12.02.37:667][  0]LogLinker: Warning: Can't find file for asset '/Game/terrain/physics/water' while loading NULL.
+[2019.09.26-12.02.37:667][  0]LogLinker: Warning: Can't find file '/Game/terrain/physics/water'
+[2019.09.26-12.02.37:667][  0]LoadErrors: Failed to load /Game/terrain/physics/water.water Referenced by BodySetup_0
+[2019.09.26-12.02.37:667][  0]LogLinker: Warning: Can't find file for asset '/Game/terrain/physics/water' while loading NULL.
+[2019.09.26-12.02.37:791][  0]SourceControl: Source control is disabled
+[2019.09.26-12.02.37:791][  0]Cmd: MAP LOAD FILE="E:/Udemy/buildingescape/BT/BattelTank/Content/Level/BattrlGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.26-12.02.37:792][  0]LightingResults: New page: Lighting Build
+[2019.09.26-12.02.37:795][  0]MapCheck: New page: Map Check
+[2019.09.26-12.02.37:795][  0]LightingResults: New page: Lighting Build
+[2019.09.26-12.02.37:833][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.09.26-12.02.38:090][  0]LogStaticMesh: Building static mesh Barrel...
+[2019.09.26-12.02.38:104][  0]LogStaticMesh: Built static mesh [0.01s] /Game/blueprint/Tank/Barrel.Barrel
+[2019.09.26-12.02.38:211][  0]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.26-12.02.38:635][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.26-12.02.38:666][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.09.26-12.02.38:666][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.26-12.02.38:666][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,114ms to complete.
+[2019.09.26-12.02.38:666][  0]LogFileHelpers: Loading map 'BattrlGround' took 0.875
+[2019.09.26-12.02.38:776][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.02.38:787][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.02.38:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.02.38:810][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.02.38:816][  0]LogCollectionManager: Loaded 0 collections in 0.001613 seconds
+[2019.09.26-12.02.38:834][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Saved/Collections/' took 0.01s
+[2019.09.26-12.02.38:834][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Content/Developers/Happy/Collections/' took 0.00s
+[2019.09.26-12.02.38:834][  0]LogFileCache: Scanning file cache for directory 'E:/Udemy/buildingescape/BT/BattelTank/Content/Collections/' took 0.00s
+[2019.09.26-12.02.38:834][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.26-12.02.38:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2740 classes and 661 folders.
+[2019.09.26-12.02.38:857][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.26-12.02.38:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:866][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:882][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:888][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:894][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:897][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:899][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:901][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:903][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:905][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:907][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.38:909][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.26-12.02.39:011][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.26-12.02.39:022][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.26-12.02.39:169][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.26-12.02.39:172][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.26-12.02.39:186][  0]LogSlate: Took 0.007320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.26-12.02.39:287][  0]LogRenderer: Reallocating scene render targets to support 1168x600 Format 9 NumSamples 1 (Frame:1).
+[2019.09.26-12.02.39:434][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.09.26-12.02.39:434][  0]LogLoad: (Engine Initialization) Total time: 11.24 seconds
+[2019.09.26-12.02.39:434][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.26-12.02.39:488][  0]LogAssetRegistry: Asset discovery search completed in 7.0719 seconds
+[2019.09.26-12.02.39:491][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.09.26-12.02.39:491][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2019.09.26-12.02.39:494][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.09.26-12.02.39:505][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-12.02.39:610][  0]LogSlate: Took 0.001568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.26-12.03.06:744][ 82]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.26-12.03.06:744][ 82]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.26-12.03.07:860][173]LogSlate: Window 'Message Log' being destroyed
+[2019.09.26-12.03.07:864][173]LogSlate: Window 'Message Log' being destroyed
+[2019.09.26-12.03.08:556][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-12.03.08:709][250]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.26-12.03.08:718][250]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/Tank/BP_Tank.BP_Tank
+[2019.09.26-12.03.09:087][250]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2019.09.26-12.03.10:434][250]LogSlate: Took 0.001678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.26-12.03.10:512][251]LogSlate: Took 0.001475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.26-12.03.25:843][103]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.26-12.03.25:846][103]LogSlate: Window 'BP_Tank' being destroyed
+[2019.09.26-12.03.30:547][534]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/blueprint/BP_Projectile.BP_Projectile
+[2019.09.26-12.03.33:673][774]LogSlate: Window 'BP_Projectile' being destroyed
+[2019.09.26-12.03.33:676][774]LogSlate: Window 'BP_Projectile' being destroyed
+[2019.09.26-12.03.34:891][909]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.26-12.03.34:903][909]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.03.34:903][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.26-12.03.34:904][909]PIE: New page: PIE session: BattrlGround (26 сент. 2019 г., 18:03:34)
+[2019.09.26-12.03.34:917][909]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.26-12.03.34:978][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060935s)
+[2019.09.26-12.03.34:979][909]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.26-12.03.34:979][909]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2019.09.26-12.03.34:979][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.062075s)
+[2019.09.26-12.03.35:025][909]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2019.09.26-12.03.35:036][909]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-12.03.35:052][909]LogInit: FAudioDevice initialized.
+[2019.09.26-12.03.35:109][909]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.26-12.03.35:119][909]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.26-15.03.35
+[2019.09.26-12.03.35:120][909]LogWorld: Bringing up level for play took: 0.008253
+[2019.09.26-12.03.35:135][909]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.09.26-12.03.35:139][909]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.09.26-12.03.35:140][909]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.09.26-12.03.35:143][909]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 0,634
+[2019.09.26-12.03.35:143][909]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.03.35:624][911]LogTemp: Warning: Fire
+[2019.09.26-12.03.36:275][977]LogTemp: Warning: Fire
+[2019.09.26-12.03.36:566][ 12]LogTemp: Warning: Fire
+[2019.09.26-12.03.36:790][ 39]LogTemp: Warning: Fire
+[2019.09.26-12.03.37:020][ 66]LogTemp: Warning: Fire
+[2019.09.26-12.03.37:653][142]LogTemp: Warning: Fire
+[2019.09.26-12.03.38:170][204]LogTemp: Warning: Fire
+[2019.09.26-12.03.38:620][258]LogTemp: Warning: Fire
+[2019.09.26-12.03.39:020][306]LogTemp: Warning: Fire
+[2019.09.26-12.03.39:863][407]LogTemp: Warning: Fire
+[2019.09.26-12.03.40:056][430]LogTemp: Warning: Fire
+[2019.09.26-12.03.40:223][449]LogTemp: Warning: Fire
+[2019.09.26-12.03.40:414][468]LogTemp: Warning: Fire
+[2019.09.26-12.03.40:582][486]LogTemp: Warning: Fire
+[2019.09.26-12.03.40:752][506]LogTemp: Warning: Fire
+[2019.09.26-12.03.40:936][528]LogTemp: Warning: Fire
+[2019.09.26-12.03.41:111][549]LogTemp: Warning: Fire
+[2019.09.26-12.03.41:284][568]LogTemp: Warning: Fire
+[2019.09.26-12.03.41:471][587]LogTemp: Warning: Fire
+[2019.09.26-12.03.41:681][611]LogTemp: Warning: Fire
+[2019.09.26-12.03.41:840][626]LogTemp: Warning: Fire
+[2019.09.26-12.03.42:015][647]LogTemp: Warning: Fire
+[2019.09.26-12.03.42:200][669]LogTemp: Warning: Fire
+[2019.09.26-12.03.42:367][689]LogTemp: Warning: Fire
+[2019.09.26-12.03.42:543][710]LogTemp: Warning: Fire
+[2019.09.26-12.03.42:735][733]LogTemp: Warning: Fire
+[2019.09.26-12.03.42:909][754]LogTemp: Warning: Fire
+[2019.09.26-12.03.43:101][777]LogTemp: Warning: Fire
+[2019.09.26-12.03.43:293][800]LogTemp: Warning: Fire
+[2019.09.26-12.03.43:460][820]LogTemp: Warning: Fire
+[2019.09.26-12.03.43:651][843]LogTemp: Warning: Fire
+[2019.09.26-12.03.43:851][867]LogTemp: Warning: Fire
+[2019.09.26-12.03.44:035][889]LogTemp: Warning: Fire
+[2019.09.26-12.03.44:210][910]LogTemp: Warning: Fire
+[2019.09.26-12.03.44:402][933]LogTemp: Warning: Fire
+[2019.09.26-12.03.44:585][955]LogTemp: Warning: Fire
+[2019.09.26-12.03.44:768][977]LogTemp: Warning: Fire
+[2019.09.26-12.03.44:968][  1]LogTemp: Warning: Fire
+[2019.09.26-12.03.45:152][ 23]LogTemp: Warning: Fire
+[2019.09.26-12.03.45:335][ 45]LogTemp: Warning: Fire
+[2019.09.26-12.03.45:527][ 68]LogTemp: Warning: Fire
+[2019.09.26-12.03.45:711][ 90]LogTemp: Warning: Fire
+[2019.09.26-12.03.45:886][111]LogTemp: Warning: Fire
+[2019.09.26-12.03.46:136][141]LogTemp: Warning: Fire
+[2019.09.26-12.03.47:011][246]LogTemp: Warning: Fire
+[2019.09.26-12.03.47:203][269]LogTemp: Warning: Fire
+[2019.09.26-12.03.47:386][291]LogTemp: Warning: Fire
+[2019.09.26-12.03.47:586][315]LogTemp: Warning: Fire
+[2019.09.26-12.03.47:803][341]LogTemp: Warning: Fire
+[2019.09.26-12.03.47:945][358]LogTemp: Warning: Fire
+[2019.09.26-12.03.48:162][384]LogTemp: Warning: Fire
+[2019.09.26-12.03.48:362][408]LogTemp: Warning: Fire
+[2019.09.26-12.03.48:595][436]LogTemp: Warning: Fire
+[2019.09.26-12.03.49:428][536]LogTemp: Warning: Fire
+[2019.09.26-12.03.49:679][566]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.03.49:679][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.03.49:712][566]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.26-12.03.49:713][566]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.03.49:758][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.03.49:827][566]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2019.09.26-12.03.49:882][567]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.09.26-12.16.47:893][901]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.26-12.16.47:893][901]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.26-12.16.49:171][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-12.16.49:355][ 41]Candidate modules for hot reload:
+[2019.09.26-12.16.49:355][ 41]  BattelTank
+[2019.09.26-12.16.49:355][ 41]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,5355 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.26-12.16.49:357][ 41]Warning: Starting HotReload took  0.1s.
+[2019.09.26-12.16.50:713][171]LogSlate: Took 0.001073 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.09.26-12.17.06:753][ 61]CompilerResultsLog: New page: Compilation - 26 сент. 2019 г., 18:17:06
+[2019.09.26-12.17.06:753][ 61]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.26-12.17.06:753][ 61]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.26-12.17.06:753][ 61]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog: Reflection code generated for BattelTankEditor in 8,516908 seconds
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog: Building 12 actions with 4 processes...
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [1/12] BattelTank.init.gen.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [2/12] Projectile.gen.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [3/12] Tank.gen.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [4/12] TankAimingComponent.gen.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [5/12] TankPlayerController.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [6/12] Projectile.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [7/12] Tank.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [8/12] TankAimingComponent.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [9/12] TankAIController.cpp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [10/12] UE4Editor-BattelTank-5355.lib
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5355.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5355.exp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [11/12] UE4Editor-BattelTank-5355.dll
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5355.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-5355.suppressed.exp
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog:   [12/12] BattelTankEditor.target
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog: Total time in Parallel executor: 5,66 seconds
+[2019.09.26-12.17.06:754][ 61]CompilerResultsLog: Total execution time: 17,27 seconds
+[2019.09.26-12.17.06:754][ 61]LogMainFrame: MainFrame: Module compiling took 17.404 seconds
+[2019.09.26-12.17.06:822][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2019.09.26-12.17.06:822][ 61]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.26-12.17.06:831][ 61]LogClass: Could not find existing class Tank in package /Script/BattelTank for HotReload, assuming new class
+[2019.09.26-12.17.06:831][ 61]LogClass: Function Fire is new.
+[2019.09.26-12.17.06:831][ 61]LogClass: Function SetBarrelReference is new.
+[2019.09.26-12.17.06:831][ 61]LogClass: Function SetTurretlReference is new.
+[2019.09.26-12.17.06:853][ 61]LogHotReload: Re-instancing Tank after hot-reload.
+[2019.09.26-12.17.07:237][ 61]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.26-12.17.07:238][ 61]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0012 seconds. Added 8 classes and 2 folders.
+[2019.09.26-12.17.07:244][ 61]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.26-12.17.07:383][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.09.26-12.17.07:383][ 61]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.26-12.17.07:406][ 61]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2741 classes and 663 folders.
+[2019.09.26-12.17.07:434][ 61]Display: HotReload took 18.2s.
+[2019.09.26-12.17.11:397][466]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.26-12.17.11:411][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.17.11:411][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.26-12.17.11:411][466]PIE: New page: PIE session: BattrlGround (26 сент. 2019 г., 18:17:11)
+[2019.09.26-12.17.11:411][466]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.26-12.17.11:468][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057076s)
+[2019.09.26-12.17.11:469][466]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.26-12.17.11:469][466]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2019.09.26-12.17.11:469][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.058040s)
+[2019.09.26-12.17.11:560][466]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2019.09.26-12.17.11:569][466]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-12.17.11:584][466]LogInit: FAudioDevice initialized.
+[2019.09.26-12.17.11:610][466]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.26-12.17.11:618][466]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.26-15.17.11
+[2019.09.26-12.17.11:618][466]LogWorld: Bringing up level for play took: 0.007455
+[2019.09.26-12.17.11:634][466]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 1,126
+[2019.09.26-12.17.11:634][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.17.14:783][826]LogTemp: Warning: Fire
+[2019.09.26-12.17.14:784][826]LogTemp: Warning: 0.008340 fire projectile 4000.000000
+[2019.09.26-12.17.17:458][147]LogTemp: Warning: Fire
+[2019.09.26-12.17.17:459][147]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.18:817][310]LogTemp: Warning: Fire
+[2019.09.26-12.17.18:817][310]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.19:317][370]LogTemp: Warning: Fire
+[2019.09.26-12.17.19:317][370]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.19:883][438]LogTemp: Warning: Fire
+[2019.09.26-12.17.19:884][438]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.20:425][503]LogTemp: Warning: Fire
+[2019.09.26-12.17.20:426][503]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.21:042][577]LogTemp: Warning: Fire
+[2019.09.26-12.17.21:043][577]LogTemp: Warning: 0.008333 fire projectile 4000.000000
+[2019.09.26-12.17.21:600][644]LogTemp: Warning: Fire
+[2019.09.26-12.17.21:601][644]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.22:117][706]LogTemp: Warning: Fire
+[2019.09.26-12.17.22:118][706]LogTemp: Warning: 0.008333 fire projectile 4000.000000
+[2019.09.26-12.17.22:659][771]LogTemp: Warning: Fire
+[2019.09.26-12.17.22:659][771]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.23:142][829]LogTemp: Warning: Fire
+[2019.09.26-12.17.23:143][829]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.23:753][902]LogTemp: Warning: Fire
+[2019.09.26-12.17.23:753][902]LogTemp: Warning: 0.009887 fire projectile 4000.000000
+[2019.09.26-12.17.24:227][959]LogTemp: Warning: Fire
+[2019.09.26-12.17.24:228][959]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.24:835][ 32]LogTemp: Warning: Fire
+[2019.09.26-12.17.24:836][ 32]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.25:194][ 75]LogTemp: Warning: Fire
+[2019.09.26-12.17.25:195][ 75]LogTemp: Warning: 0.008333 fire projectile 4000.000000
+[2019.09.26-12.17.25:428][103]LogTemp: Warning: Fire
+[2019.09.26-12.17.25:429][103]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.25:603][124]LogTemp: Warning: Fire
+[2019.09.26-12.17.25:603][124]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.25:786][146]LogTemp: Warning: Fire
+[2019.09.26-12.17.25:787][146]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.25:961][167]LogTemp: Warning: Fire
+[2019.09.26-12.17.25:962][167]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.26:494][231]LogTemp: Warning: Fire
+[2019.09.26-12.17.26:495][231]LogTemp: Warning: 0.008333 fire projectile 4000.000000
+[2019.09.26-12.17.26:944][285]LogTemp: Warning: Fire
+[2019.09.26-12.17.26:945][285]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.17.27:178][313]LogTemp: Warning: Fire
+[2019.09.26-12.17.27:178][313]LogTemp: Warning: 0.008333 fire projectile 4000.000000
+[2019.09.26-12.17.27:486][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.17.27:487][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.17.27:523][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.26-12.17.27:524][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.17.27:570][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-12.17.27:596][350]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2019.09.26-12.17.27:623][351]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.09.26-12.19.15:272][918]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-12.20.19:563][212]Candidate modules for hot reload:
+[2019.09.26-12.20.19:563][212]  BattelTank
+[2019.09.26-12.20.19:564][212]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattelTank,2134 Win64 Development -TargetType=Editor -Project="E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject" "E:/Udemy/buildingescape/BT/BattelTank/BattelTank.uproject"  -IgnoreJunk]
+[2019.09.26-12.20.19:566][212]Warning: Starting HotReload took  0.0s.
+[2019.09.26-12.20.31:708][290]CompilerResultsLog: New page: Compilation - 26 сент. 2019 г., 18:20:31
+[2019.09.26-12.20.31:708][290]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Udemy\buildingescape\BT).
+[2019.09.26-12.20.31:708][290]CompilerResultsLog: Creating makefile for BattelTankEditor (ini files are newer than makefile)
+[2019.09.26-12.20.31:708][290]CompilerResultsLog: Parsing headers for BattelTankEditor
+[2019.09.26-12.20.31:709][290]CompilerResultsLog:   Running UnrealHeaderTool "E:\Udemy\buildingescape\BT\BattelTank\BattelTank.uproject" "E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\BattelTankEditor\Development\BattelTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.26-12.20.31:709][290]CompilerResultsLog: Reflection code generated for BattelTankEditor in 7,7763137 seconds
+[2019.09.26-12.20.31:709][290]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.26-12.20.31:710][290]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.09.26-12.20.31:710][290]CompilerResultsLog:   [1/4] Projectile.cpp
+[2019.09.26-12.20.31:710][290]CompilerResultsLog:   [2/4] UE4Editor-BattelTank-2134.lib
+[2019.09.26-12.20.31:710][290]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-2134.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-2134.exp
+[2019.09.26-12.20.31:710][290]CompilerResultsLog:   [3/4] UE4Editor-BattelTank-2134.dll
+[2019.09.26-12.20.31:710][290]CompilerResultsLog:      ????????? ?????????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-2134.suppressed.lib ? ?????? E:\Udemy\buildingescape\BT\BattelTank\Intermediate\Build\Win64\UE4Editor\Development\BattelTank\UE4Editor-BattelTank-2134.suppressed.exp
+[2019.09.26-12.20.31:711][290]CompilerResultsLog:   [4/4] BattelTankEditor.target
+[2019.09.26-12.20.31:711][290]CompilerResultsLog: Total time in Parallel executor: 1,48 seconds
+[2019.09.26-12.20.31:711][290]CompilerResultsLog: Total execution time: 11,86 seconds
+[2019.09.26-12.20.31:711][290]LogMainFrame: MainFrame: Module compiling took 12.151 seconds
+[2019.09.26-12.20.31:744][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.09.26-12.20.31:744][290]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (unloaded)
+[2019.09.26-12.20.31:773][290]LogBlueprintActionDatabase: Requesting refresh due to module change: BattelTank (loaded)
+[2019.09.26-12.20.31:774][290]LogContentBrowser: Native class hierarchy updated for 'BattelTank' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2019.09.26-12.20.31:779][290]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2019.09.26-12.20.31:889][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.09.26-12.20.31:889][290]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.26-12.20.31:912][290]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2741 classes and 663 folders.
+[2019.09.26-12.20.31:913][290]Display: HotReload took 12.4s.
+[2019.09.26-12.20.46:282][436]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.26-12.20.46:296][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.20.46:296][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.26-12.20.46:297][436]PIE: New page: PIE session: BattrlGround (26 сент. 2019 г., 18:20:46)
+[2019.09.26-12.20.46:297][436]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattrlGround
+[2019.09.26-12.20.46:355][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058023s)
+[2019.09.26-12.20.46:356][436]LogAIModule: Creating AISystem for world BattrlGround
+[2019.09.26-12.20.46:356][436]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2019.09.26-12.20.46:356][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattrlGround.BattrlGround to /Game/Level/UEDPIE_0_BattrlGround.BattrlGround (0.059364s)
+[2019.09.26-12.20.46:445][436]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2019.09.26-12.20.46:456][436]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-12.20.46:471][436]LogInit: FAudioDevice initialized.
+[2019.09.26-12.20.46:503][436]LogLoad: Game class is 'BP_BattelTankGameModeBase_C'
+[2019.09.26-12.20.46:513][436]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattrlGround.BattrlGround up for play (max tick rate 0) at 2019.09.26-15.20.46
+[2019.09.26-12.20.46:514][436]LogWorld: Bringing up level for play took: 0.008305
+[2019.09.26-12.20.46:529][436]PIE: Play in editor start time for /Game/Level/UEDPIE_0_BattrlGround 0,02
+[2019.09.26-12.20.46:529][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/BattrlGround.BattrlGround:PersistentLevel' has LevelScriptBlueprint '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround' with GeneratedClass '/Game/Level/BattrlGround.BattrlGround_C' with ClassGeneratedBy '/Game/Level/BattrlGround.BattrlGround:PersistentLevel.BattrlGround'
+[2019.09.26-12.20.48:280][642]LogTemp: Warning: Fire
+[2019.09.26-12.20.48:281][642]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.50:130][859]LogTemp: Warning: Fire
+[2019.09.26-12.20.50:131][859]LogTemp: Warning: 0.008542 fire projectile 4000.000000
+[2019.09.26-12.20.51:018][962]LogTemp: Warning: Fire
+[2019.09.26-12.20.51:019][962]LogTemp: Warning: 0.009696 fire projectile 4000.000000
+[2019.09.26-12.20.51:724][ 43]LogTemp: Warning: Fire
+[2019.09.26-12.20.51:725][ 43]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.52:274][109]LogTemp: Warning: Fire
+[2019.09.26-12.20.52:275][109]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.53:882][302]LogTemp: Warning: Fire
+[2019.09.26-12.20.53:883][302]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.54:674][397]LogTemp: Warning: Fire
+[2019.09.26-12.20.54:675][397]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.55:841][537]LogTemp: Warning: Fire
+[2019.09.26-12.20.55:842][537]LogTemp: Warning: 0.008333 fire projectile 4000.000000
+[2019.09.26-12.20.56:508][617]LogTemp: Warning: Fire
+[2019.09.26-12.20.56:509][617]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.57:100][688]LogTemp: Warning: Fire
+[2019.09.26-12.20.57:101][688]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.57:709][761]LogTemp: Warning: Fire
+[2019.09.26-12.20.57:709][761]LogTemp: Warning: 0.008334 fire projectile 4000.000000
+[2019.09.26-12.20.57:775][769]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.09.26-12.20.58:284][769]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.509 s
+[2019.09.26-12.20.58:284][769]LogOutputDevice: Error: === Handled ensure: ===
+[2019.09.26-12.20.58:284][769]LogOutputDevice: Error: 
+[2019.09.26-12.20.58:284][769]LogOutputDevice: Error: Ensure condition failed: OutTM.isValid() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\PhysicsGeometryPhysX.cpp] [Line: 211]
+[2019.09.26-12.20.58:285][769]LogOutputDevice: Error: 
+[2019.09.26-12.20.58:285][769]LogOutputDevice: Error: Stack: 
+[2019.09.26-12.20.58:285][769]LogOutputDevice: Error: [Callstack] 0x00007ff93d86e589 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:285][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cda64cb UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:285][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cda4f7d UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:285][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cdb4404 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:285][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cd8a5ab UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:286][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cd5230d UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:286][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cdc7fdf UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:287][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cd82e2c UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:287][769]LogOutputDevice: Error: [Callstack] 0x00007ff93cd7744d UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:287][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c61ea47 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:287][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c6143ce UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:287][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c66f71d UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:288][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c686fb9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:288][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c666ce4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:288][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c611fd3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:288][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c67a351 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:288][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c67a6e2 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:289][769]LogOutputDevice: Error: [Callstack] 0x00007ff922f852ff UE4Editor-BattelTank-2134.dll!UTankTurret::Rotate() [E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankTurret.cpp:15]
+[2019.09.26-12.20.58:289][769]LogOutputDevice: Error: [Callstack] 0x00007ff922f84900 UE4Editor-BattelTank-2134.dll!UTankAimingComponent::MoveBarrelTowards() [E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp:59]
+[2019.09.26-12.20.58:290][769]LogOutputDevice: Error: [Callstack] 0x00007ff922f8483d UE4Editor-BattelTank-2134.dll!UTankAimingComponent::AimAt() [E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankAimingComponent.cpp:45]
+[2019.09.26-12.20.58:290][769]LogOutputDevice: Error: [Callstack] 0x00007ff922f8328e UE4Editor-BattelTank-2134.dll!ATank::AimAt() [E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\Tank.cpp:54]
+[2019.09.26-12.20.58:290][769]LogOutputDevice: Error: [Callstack] 0x00007ff922f84e7f UE4Editor-BattelTank-2134.dll!ATankPlayerController::AimTowardsCrosshair() [E:\Udemy\buildingescape\BT\BattelTank\Source\BattelTank\TankPlayerController.cpp:48]
+[2019.09.26-12.20.58:290][769]LogOutputDevice: Error: [Callstack] 0x00007ff93ce329b6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:291][769]LogOutputDevice: Error: [Callstack] 0x00007ff93c21aeed UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:291][769]LogOutputDevice: Error: [Callstack] 0x00007ff93d1d72bc UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:291][769]LogOutputDevice: Error: [Callstack] 0x00007ff95d7722d8 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.26-12.20.58:291][769]LogOutputDevice: Error: [Callstack] 0x00007ff95d772563 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.26-12.20.58:291][769]LogOutputDevice: Error: [Callstack] 0x00007ff95d782309 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.26-12.20.58:291][769]LogOutputDevice: Error: [Callstack] 0x00007ff93d21f9e3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:292][769]LogOutputDevice: Error: [Callstack] 0x00007ff93d22bd12 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:292][769]LogOutputDevice: Error: [Callstack] 0x00007ff93ca4dc4f UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:292][769]LogOutputDevice: Error: [Callstack] 0x00007ff93ca57e28 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.26-12.20.58:292][769]LogOutputDevice: Error: [Callstack] 0x00007ff93ada02f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.26-12.20.58:292][769]LogOutputDevice: Error: [Callstack] 0x00007ff93b5bd396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.26-12.20.58:292][769]LogOutputDevice: Error: [Callstack] 0x00007ff735f26bb1 UE4Editor.exe!UnknownFunction []
+[2019.09.26-12.20.58:292][769]LogOutputDevice: Error: [Callstack] 0x00007ff735f3554c UE4Editor.exe!UnknownFunction []
+[2019.09.26-12.20.58:293][769]LogOutputDevice: Error: [Callstack] 0x00007ff735f355ca UE4Editor.exe!UnknownFunction []
+[2019.09.26-12.20.58:293][769]LogOutputDevice: Error: [Callstack] 0x00007ff735f4316c UE4Editor.exe!UnknownFunction []
+[2019.09.26-12.20.58:293][769]LogOutputDevice: Error: [Callstack] 0x00007ff735f45b8e UE4Editor.exe!UnknownFunction []
+[2019.09.26-12.20.58:293][769]LogOutputDevice: Error: [Callstack] 0x00007ff97c607974 KERNEL32.DLL!UnknownFunction []
+[2019.09.26-12.20.58:293][769]LogOutputDevice: Error: [Callstack] 0x00007ff97d39a271 ntdll.dll!UnknownFunction []
+[2019.09.26-12.20.58:293][769]LogOutputDevice: Error: 
+[2019.09.26-12.20.58:294][769]LogStats:                SubmitErrorReport -  0.000 s

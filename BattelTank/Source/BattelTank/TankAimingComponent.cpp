@@ -26,7 +26,7 @@ void UTankAimingComponent::SetTurretRefernce(UTankTurret* TurretToSet)
 	Turret = TurretToSet;
 }
 
-void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LounchSpeed)
+void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LaunchSpeed)
 {
 	if (!Barrel) { return; };
 
@@ -35,7 +35,7 @@ void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LounchSpeed)
 
 	//Calculete the OutLounchVelocity
 	bool bHaveAimSolution = (UGameplayStatics::SuggestProjectileVelocity(this, OutLounchVelocity, StartLocation,
-		WorldSpaceAim, LounchSpeed, false, 0, 0, ESuggestProjVelocityTraceOption::DoNotTrace));// Suggest projectile speed
+		WorldSpaceAim, LaunchSpeed, false, 0, 0, ESuggestProjVelocityTraceOption::DoNotTrace));// Suggest projectile speed
 
 	if (bHaveAimSolution)
 	{

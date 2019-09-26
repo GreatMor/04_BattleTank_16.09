@@ -32,11 +32,14 @@ void ATank::Fire()
 	if (!BarrelRef) { return; }
 	else
 	{
-		GetWorld()->SpawnActor<AProjectile>(ProjectileBlueprint,
+		//Spawn a projectile at socket location on the barrle
+		auto Projectile = GetWorld()->SpawnActor<AProjectile>(ProjectileBlueprint,
 			BarrelRef->GetSocketLocation(FName("Projectile")),
-			BarrelRef->GetSocketRotation(FName(" Projectile ")));
+			BarrelRef->GetSocketRotation(FName(" Projectile "))
+			);
+		Projectile->LaunchProjectile(LaunchSpeed);
 	}
-
+	
 }
 
 // Called to bind functionality to input
@@ -47,5 +50,5 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void ATank::AimAt(FVector HitLocation)
 {
-	TankAimingComponent->AimAt(HitLocation, LounchSpeed);
+	TankAimingComponent->AimAt(HitLocation, LaunchSpeed);
 }
