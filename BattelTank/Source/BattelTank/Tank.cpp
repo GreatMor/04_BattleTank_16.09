@@ -12,6 +12,10 @@ ATank::ATank()
 	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(FName("Aiming Component"));
 }
 
+void ATank::Fire()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Fire"));
+}
 void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
 {
 	TankAimingComponent->SetBarrelRefernce(BarrelToSet);
