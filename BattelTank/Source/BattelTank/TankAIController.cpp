@@ -22,10 +22,7 @@ void ATankAIController::Tick(float DeltaTime)
 
 		ControlledTank->Fire();
 	}
-	
-	}
-
-	
+}	
 
 void ATankAIController::BeginPlay()
 {

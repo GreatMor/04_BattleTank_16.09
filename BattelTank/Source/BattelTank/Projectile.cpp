@@ -19,21 +19,19 @@ AProjectile::AProjectile()
 void AProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void AProjectile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AProjectile::LaunchProjectile(float SpeedProjectile)
 {
-	auto Time = GetWorld()->DeltaTimeSeconds;
+	/*auto Time = GetWorld()->DeltaTimeSeconds;
 	UE_LOG(LogTemp, Warning, TEXT("%f fire projectile %f"), Time, SpeedProjectile);
-
+*/
 	ProjectileMovement->SetVelocityInLocalSpace(FVector::ForwardVector * SpeedProjectile);
 
 	ProjectileMovement->Activate();//Active projectile movement after the projectile flies

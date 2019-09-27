@@ -40,9 +40,7 @@ void ATank::Fire()
 			);
 		Projectile->LaunchProjectile(LaunchSpeed);
 		LastFireTime = FPlatformTime::Seconds();
-
-	}
-	
+	}	
 }
 
 // Called to bind functionality to input

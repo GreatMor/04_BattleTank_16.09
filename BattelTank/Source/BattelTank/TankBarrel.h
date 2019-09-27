@@ -21,13 +21,13 @@ public:
 
 private:
 	 
-	UPROPERTY(EditAnywhere, category = "Setup")
+	UPROPERTY(EditAnyWhere, category = "Setup")
 	float MaxDegreesPerSecond = 20;//
 
-	UPROPERTY(EditAnywhere, category = "Setup")
+	UPROPERTY(EditAnyWhere, category = "Setup")
 	float MaxElevationDegrees= 40;//
 
 
-	UPROPERTY(EditAnywhere, category = "Setup")
+	UPROPERTY(EditAnyWhere, category = "Setup")
 	float MinElevationDegrees = 40;//
 };

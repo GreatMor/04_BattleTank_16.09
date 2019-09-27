@@ -20,13 +20,13 @@ private:
 
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnyWhere)
 	float CrossHairXLocation = 0.5f;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnyWhere)
 	float CrossHairYLocation = 0.33333f;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnyWhere)
 	float LineTraceRange = 1000000;
 
 	bool GetLookDirektion(FVector2D ScreenLocation, FVector& LookDirection) const;
@@ -39,6 +39,4 @@ private:
 
 	// Return an Out paramete,  true if hit landscape
 	bool GetSighetHitLocation(FVector& HitLocation) const;
-
-
 };
