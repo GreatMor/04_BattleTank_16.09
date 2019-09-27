@@ -79,3 +79,28 @@ BattelTank/Content/Material/
 BattelTank/Binaries/Win64/BattelTankEditor.target
 BattelTank/Binaries/
 BattelTank/Intermediate/
+
+#######################
+#UnrealGenerated Files#
+#######################
+*/Intermediate/
+*/Build/
+*/DerivedDataCache/
+*/Binaries/
+*/Saved/
+*/Content/StarterContent/
+*/Content/MedievalDungeon/
+
+Building_Escape/Content/StarterContent/
+
+
+####################
+#VS Generated Files#
+####################
+
+*VC.db
+
+Building_Escape/.vs/
+
+buildingescape01/.vs/
+
