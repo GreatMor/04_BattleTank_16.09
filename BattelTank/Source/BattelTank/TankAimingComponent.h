@@ -18,8 +18,9 @@ public:
 	UTankAimingComponent();
 
 	void AimAt(FVector HitLocation, float LaunchSpeed);
-	void SetBarrelRefernce(UTankBarrel* BarrelToSet);// Sets the link to the tank barrel
-	void SetTurretRefernce(UTankTurret* TurretToSet);// Sets the link to the tank turret
+
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	void Initilaize(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);// Sets the link to the tank barrel and turret
 
 private:
 

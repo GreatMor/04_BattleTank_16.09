@@ -22,11 +22,11 @@ public:
 	
 	void AimAt(FVector HitLocation);
 
-	UFUNCTION(BlueprintCallable)
-	void  SetBarrelReference(UTankBarrel* BarrelToSet);
+	//UFUNCTION(BlueprintCallable)
+	//void  SetBarrelReference(UTankBarrel* BarrelToSet);
 
-	UFUNCTION(BlueprintCallable)
-	void  SetTurretlReference(UTankTurret* TurretToSet);
+	/*UFUNCTION(BlueprintCallable)
+	void  InitilaizeAimComponent(UTankTurret* TurretToSet, UTankBarrel * BarretToSet);*/
 
 	UFUNCTION(BlueprintCallable)
 	void Fire();
@@ -35,7 +35,7 @@ public:
 	UTankBarrel* BarrelRef = nullptr;
 
 protected:
-
+	UPROPERTY(BlueprintReadOnly)
 	UTankAimingComponent* TankAimingComponent = nullptr;
 
 	UPROPERTY(BlueprintReadOnly)
@@ -45,16 +45,13 @@ private:
 	// Sets default values for this pawn's properties
 	ATank();
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	UPROPERTY(EditAnyWhere, Category = Firing)
+	UPROPERTY(EditAnyWhere, Category = "Firing")
 	float LaunchSpeed = 4000;
 
-	UPROPERTY(EditAnyWhere, Category = Firing)
+	UPROPERTY(EditAnyWhere, Category = "Firing")
 	TSubclassOf<AProjectile> ProjectileBlueprint;
 
-	UPROPERTY(EditAnyWhere, Category = Firing)
+	UPROPERTY(EditAnyWhere, Category = "Firing")
 	float ReloadTimeInSeconds = 3;
 
 	double LastFireTime = 0;	
