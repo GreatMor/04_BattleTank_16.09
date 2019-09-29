@@ -11,14 +11,6 @@ void UTankMovementComponent::Initilaize(UTankTrack* LeftTrackToSet, UTankTrack* 
 	RighetTrack = RighetTrackToSet;
 }
 
-void UTankMovementComponent::RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed)
-{
-	auto TankName = GetOwner()->GetName();
-	auto MoveVelocityString = MoveVelocity.ToString();
-
-	UE_LOG(LogTemp, Warning, TEXT("%s MoveVelocity %s:"), *TankName, *MoveVelocityString);
-}
-
 void UTankMovementComponent::IntendMoveForward(float Throw)
 {	
 	if (!LeftTrack || !RighetTrack) { return; };
@@ -31,4 +23,16 @@ void UTankMovementComponent::IntendTurnRighet(float Throw)
 	if (!LeftTrack || !RighetTrack) { return; };
 	LeftTrack->SetTrottele(Throw);
 	RighetTrack->SetTrottele(-Throw);
+}
+
+void UTankMovementComponent::RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed)
+{
+
+	auto TankForward = GetOwner()->GetActorForwardVector().GetSafeNormal();//Tank direction ai
+	auto AiForwardIntention = MoveVelocity.GetSafeNormal();//Movement direction of the tank ai
+	auto MoveAiTank = FVector::DotProduct(TankForward, AiForwardIntention);
+
+	IntendMoveForward(MoveAiTank);
+	
+	UE_LOG(LogTemp, Warning, TEXT("MoveVelocity ai  %f:"), MoveAiTank);
 }
