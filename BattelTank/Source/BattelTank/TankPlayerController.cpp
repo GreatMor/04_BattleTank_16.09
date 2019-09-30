@@ -30,9 +30,8 @@ void ATankPlayerController::AimTowardsCrosshair()
 
 	if (GetSighetHitLocation(HitLocation)) // All rights reserved.
 	{
-		TankAimingComponent->AimAt(HitLocation);
+		AmingComponent->AimAt(HitLocation);
 	}
-
 }
 
 //Get world location of lintrace through crosshair, return true if hit landscape

@@ -14,19 +14,19 @@ ATank::ATank()
 
 void ATank::Fire()
 {
-	if (!ensure(BarrelRef)) {return;}
+	//if (!ensure(BarrelRef)) {return;}
 
-	bool isReloade = (FPlatformTime::Seconds() - LastFireTime) > ReloadTimeInSeconds;
+	//bool isReloade = (FPlatformTime::Seconds() - LastFireTime) > ReloadTimeInSeconds;
 
-	if(isReloade)
-	{
-		//Spawn a projectile at socket location on the barrle
-		auto Projectile = GetWorld()->SpawnActor<AProjectile>(ProjectileBlueprint,
-			BarrelRef->GetSocketLocation(FName("Projectile")),
-			BarrelRef->GetSocketRotation(FName(" Projectile "))
-			);
-		Projectile->LaunchProjectile(LaunchSpeed);
-		LastFireTime = FPlatformTime::Seconds();
-	}	
+	//if(isReloade)
+	//{
+	//	//Spawn a projectile at socket location on the barrle
+	//	auto Projectile = GetWorld()->SpawnActor<AProjectile>(ProjectileBlueprint,
+	//		BarrelRef->GetSocketLocation(FName("Projectile")),
+	//		BarrelRef->GetSocketRotation(FName(" Projectile "))
+	//		);
+	//	Projectile->LaunchProjectile(LaunchSpeed);
+	//	LastFireTime = FPlatformTime::Seconds();
+	//}	
 }
 

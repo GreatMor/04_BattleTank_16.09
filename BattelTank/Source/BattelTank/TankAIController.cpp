@@ -13,12 +13,13 @@ void ATankAIController::Tick(float DeltaTime)
 
 	if (!ensure(PlayerTank && ControlledTank)) { return;}
 	
-	auto TankAimingComponent = FindComponentByClass<UTankAimingComponent>();
+	
 	//Move towards the player
 	MoveToActor(PlayerTank, AcceptanceRadius);
 
+	auto AimingComponent = ControlledTank->FindComponentByClass<UTankAimingComponent>();
 	//Aim towards the player (Нацелится на танк игрока )
-	TankAimingComponent->AimAt(PlayerTank->GetActorLocation());
+	AimingComponent->AimAt(PlayerTank->GetActorLocation());
 
 	//shoot the player
 	//TankAimingComponent->Fire();	

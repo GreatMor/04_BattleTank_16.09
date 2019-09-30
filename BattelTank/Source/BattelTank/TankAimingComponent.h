@@ -23,8 +23,7 @@ class BATTELTANK_API UTankAimingComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this component's properties
-	UTankAimingComponent();
+	
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	void Initilaize(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);// Sets the link to the tank barrel and turret
@@ -39,10 +38,18 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, category = "Setup")
 	void FounaAmingComponent(UTankAimingComponent* AimCopmRef);
 
+	UTankBarrel* Barrel = nullptr;
+
 private:
 
-	UTankBarrel* Barrel = nullptr;
-	UTankTurret* Turret = nullptr;
+	// Sets default values for this component's properties
+	UTankAimingComponent();
+
+	virtual void BeginPlay()override;
+
+	//virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)override;	
+
+	UTankTurret * Turret = nullptr;
 
 	void MoveBarrelTowards(FVector AimDir);	// Move barrel to direction
 

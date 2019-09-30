@@ -11,7 +11,18 @@ UTankAimingComponent::UTankAimingComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
-	PrimaryComponentTick.bCanEverTick = false;
+	bWantsBeginPlay = true;
+
+	PrimaryComponentTick.bCanEverTick = true;
+}
+void UTankAimingComponent::BeginPlay()
+{
+	Super::BeginPlay();
+
+	//auto AmingComponent = GetOwner()->FindComponentByClass<UTankAimingComponent>();
+	//if (!ensure(AmingComponent)) { return; }
+
+	//FounaAmingComponent(AmingComponent);
 }
 
 void UTankAimingComponent::Initilaize(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet)
@@ -20,15 +31,15 @@ void UTankAimingComponent::Initilaize(UTankBarrel* BarrelToSet, UTankTurret* Tur
 	Turret = TurretToSet;
 }
 
-void UTankAimingComponent::AimAt(FVector WorldSpaceAim)
+void UTankAimingComponent::AimAt(FVector HitLocation)
 {
-
+	if (!ensure(Barrel)) { return; }
 	FVector OutLounchVelocity; // OUT param
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
 
 	//Calculete the OutLounchVelocity
 	bool bHaveAimSolution = (UGameplayStatics::SuggestProjectileVelocity(this, OutLounchVelocity, StartLocation,
-		WorldSpaceAim, LaunchSpeed, false, 0, 0, ESuggestProjVelocityTraceOption::DoNotTrace));// Suggest projectile speed
+		HitLocation, LaunchSpeed, false, 0, 0, ESuggestProjVelocityTraceOption::DoNotTrace));// Suggest projectile speed
 
 	if (bHaveAimSolution)
 	{
@@ -40,7 +51,7 @@ void UTankAimingComponent::AimAt(FVector WorldSpaceAim)
 void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
 {
 
-	if (!ensure(Barrel||!Turret)) { return; };
+	if (!ensure(Barrel)|| !ensure(Turret)) { return; };
 
  	auto BarrelRotator = Barrel->GetForwardVector().Rotation();//// Barrel directions
 	auto AimAsRotator = AimDirection.Rotation();
