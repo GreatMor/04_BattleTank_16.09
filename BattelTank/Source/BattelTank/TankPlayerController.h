@@ -6,7 +6,9 @@
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h"
 
+//Forward Diclaration
 class ATank;
+class UTankAimingComponent;
 
 UCLASS()
 class BATTELTANK_API ATankPlayerController : public APlayerController
@@ -16,11 +18,13 @@ protected:
 
 	UFUNCTION(BlueprintCallable)
 	ATank* GetControlledTank() const;
+	
+	UFUNCTION(BlueprintImplementableEvent, category = "Setup")
+	void FounaAmingComponent(UTankAimingComponent* AimCopmRef);
 
 private:
 	
 	void BeginPlay() override;
-
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnyWhere)

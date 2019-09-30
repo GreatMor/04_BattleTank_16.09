@@ -15,7 +15,6 @@ enum class EFiringState : uint8
 	Reloading,
 	Aiming,
 	Locked,
-	test
 };
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
@@ -31,10 +30,15 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	void Initilaize(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);// Sets the link to the tank barrel and turret
+
+
 protected:
 
 	UPROPERTY(BlueprintReadOnly, Category = "Setup")
 	EFiringState FiringState= EFiringState::Locked;
+
+	UFUNCTION(BlueprintImplementableEvent, category = "Setup")
+	void FounaAmingComponent(UTankAimingComponent* AimCopmRef);
 
 private:
 

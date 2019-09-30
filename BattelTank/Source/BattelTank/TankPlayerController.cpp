@@ -2,6 +2,7 @@
 
 #include "TankPlayerController.h"
 #include "Engine/World.h"
+#include "TankAimingComponent.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Tank.h"
 
@@ -15,6 +16,17 @@ ATank* ATankPlayerController::GetControlledTank() const
 void ATankPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
+	auto AmingComponent = GetControlledTank()->FindComponentByClass<UTankAimingComponent>();
+	
+	if (AmingComponent)
+	{
+		FounaAmingComponent(AmingComponent);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("no aming compinent"));
+	}
+
 }
 
 void ATankPlayerController::Tick(float DeltaTime)
