@@ -8,7 +8,6 @@
 
 //Forward Diclaration
 class UTankBarrel;
-class UTankAimingComponent;
 class AProjectile;
 
 UCLASS()
@@ -18,19 +17,11 @@ class BATTELTANK_API ATank : public APawn
 
 public:
 
-	void BeginPlay()override;
-	
-	void AimAt(FVector HitLocation);
-
 	UFUNCTION(BlueprintCallable)
 	void Fire();
 
 	// local barrel reference for spawn Projectile
 	UTankBarrel* BarrelRef = nullptr;
-
-protected:
-	UPROPERTY(BlueprintReadOnly)
-	UTankAimingComponent* TankAimingComponent = nullptr;
 
 private:
 	// Sets default values for this pawn's properties

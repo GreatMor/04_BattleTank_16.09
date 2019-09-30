@@ -4,29 +4,14 @@
 #include "Engine/World.h"
 #include "TankAimingComponent.h"
 #include "Camera/PlayerCameraManager.h"
-#include "Tank.h"
-
-
-
-ATank* ATankPlayerController::GetControlledTank() const
-{
-	return Cast<ATank>(GetPawn());// We transfer to the ATank type a pawn which he owns
-}
 
 void ATankPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-	auto AmingComponent = GetControlledTank()->FindComponentByClass<UTankAimingComponent>();
-	
-	if (ensure(AmingComponent))
-	{
-		FounaAmingComponent(AmingComponent);
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("no aming compinent"));
-	}
+	auto AmingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();	
+	if (!ensure(AmingComponent)) { return; }
 
+	FounaAmingComponent(AmingComponent);
 }
 
 void ATankPlayerController::Tick(float DeltaTime)
@@ -38,12 +23,14 @@ void ATankPlayerController::Tick(float DeltaTime)
 
 void ATankPlayerController::AimTowardsCrosshair()
 {
+	auto AmingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
+	if (!ensure(AmingComponent)) { return; }
+
 	FVector HitLocation; // OutParameter	
 
-	if (!ensure(GetControlledTank())) { return; }
 	if (GetSighetHitLocation(HitLocation)) // All rights reserved.
 	{
-		GetControlledTank()->AimAt(HitLocation);	
+		TankAimingComponent->AimAt(HitLocation);
 	}
 
 }

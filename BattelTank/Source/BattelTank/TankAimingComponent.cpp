@@ -20,7 +20,7 @@ void UTankAimingComponent::Initilaize(UTankBarrel* BarrelToSet, UTankTurret* Tur
 	Turret = TurretToSet;
 }
 
-void UTankAimingComponent::AimAt(FVector WorldSpaceAim, float LaunchSpeed)
+void UTankAimingComponent::AimAt(FVector WorldSpaceAim)
 {
 
 	FVector OutLounchVelocity; // OUT param
