@@ -12,7 +12,7 @@ void ATankAIController::Tick(float DeltaTime)
 	auto PlayerTank = Cast<ATank>(GetWorld()->GetFirstPlayerController()->GetPawn());//Location of the player’s tank  (Место нахождене танка игрока) 
 	auto ControlledTank = Cast<ATank>(GetPawn());
 
-	if (ensure(PlayerTank))
+	if (ensure(PlayerTank)) 
 	{
 		//Move towards the player
 

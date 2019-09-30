@@ -18,7 +18,7 @@ void ATankPlayerController::BeginPlay()
 	Super::BeginPlay();
 	auto AmingComponent = GetControlledTank()->FindComponentByClass<UTankAimingComponent>();
 	
-	if (!ensure(AmingComponent))
+	if (ensure(AmingComponent))
 	{
 		FounaAmingComponent(AmingComponent);
 	}
