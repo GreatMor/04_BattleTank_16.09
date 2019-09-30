@@ -17,8 +17,6 @@ class BATTELTANK_API ATank : public APawn
 
 public:
 
-	UFUNCTION(BlueprintCallable)
-	void Fire();
 
 	// local barrel reference for spawn Projectile
 	UTankBarrel* BarrelRef = nullptr;
