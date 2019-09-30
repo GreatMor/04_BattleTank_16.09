@@ -13,14 +13,14 @@ void UTankMovementComponent::Initilaize(UTankTrack* LeftTrackToSet, UTankTrack* 
 
 void UTankMovementComponent::IntendMoveForward(float Throw)
 {	
-	if (!LeftTrack || !RighetTrack) { return; };
+	if (!ensure(LeftTrack && RighetTrack)) { return; };
 	LeftTrack->SetTrottele(Throw);
 	RighetTrack->SetTrottele(Throw);
 }
 
 void UTankMovementComponent::IntendTurnRighet(float Throw)
 {
-	if (!LeftTrack || !RighetTrack) { return; };
+	if (!ensure(LeftTrack && RighetTrack)) { return; };
 	LeftTrack->SetTrottele(Throw);
 	RighetTrack->SetTrottele(-Throw);
 }
@@ -38,5 +38,4 @@ void UTankMovementComponent::RequestDirectMove(const FVector& MoveVelocity, bool
 	IntendMoveForward(MoveAiTank);
 	IntendTurnRighet(RighetThrowAiTank);
 
-	UE_LOG(LogTemp, Warning, TEXT("MoveVelocity ai  %f:"), MoveAiTank);
 }

@@ -18,7 +18,7 @@ void ATankPlayerController::BeginPlay()
 	Super::BeginPlay();
 	auto AmingComponent = GetControlledTank()->FindComponentByClass<UTankAimingComponent>();
 	
-	if (AmingComponent)
+	if (!ensure(AmingComponent))
 	{
 		FounaAmingComponent(AmingComponent);
 	}
@@ -40,7 +40,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 {
 	FVector HitLocation; // OutParameter	
 
-	if (!GetControlledTank()) { return; }
+	if (!ensure(GetControlledTank())) { return; }
 	if (GetSighetHitLocation(HitLocation)) // All rights reserved.
 	{
 		GetControlledTank()->AimAt(HitLocation);	
