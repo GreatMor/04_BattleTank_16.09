@@ -11,5 +11,4 @@ void UTankTurret::Rotate(float RelativeSpeed)
 	auto RawNewRotate = RelativeRotation.Yaw + RoateChage;// New Rotate
 
 	SetRelativeRotation(FRotator(0, RawNewRotate, 0));
-
 }
