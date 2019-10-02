@@ -11,8 +11,7 @@
 
 UTankTrack::UTankTrack()
 {
-	PrimaryComponentTick.bCanEverTick = true;
-	
+	PrimaryComponentTick.bCanEverTick = false;	
 }
 
 void UTankTrack::BeginPlay()
@@ -22,44 +21,34 @@ void UTankTrack::BeginPlay()
 
 void UTankTrack::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	UE_LOG(LogTemp, Warning, TEXT("OnHit"));
-}
-
-void UTankTrack::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	//Calculate the sllipage speed 
-	auto SllipageSpeed = FVector::DotProduct(GetRightVector(), GetComponentVelocity());
-
-	//Wor - out the rewquired acceleration rhis frame to correct
-	auto CorrectionAcceleration = -SllipageSpeed / DeltaTime * GetRightVector();
-
-	// Calculate and apply sideways for (f = m a)
-	auto TankRoot = Cast<UStaticMeshComponent>(GetOwner()->GetRootComponent());
-	auto CorrectionForce = TankRoot->GetMass() * CorrectionAcceleration / 2; // 2 track
-
-	TankRoot->AddForce(CorrectionForce);
+	DriveTrack();
+	ApplySidewaysForce();
+	CurretThrottle = 0;
 }
 
 void UTankTrack::SetTrottele(float Throttle)
 {
-	//Set a trottle between -1 and +1
+	CurretThrottle = FMath::Clamp<float>(CurretThrottle + Throttle, -1,+1);
+}
 
-	auto ForceApplide = GetForwardVector() * Throttle * TrackMaxDrivingForce;/*GetForwardVector() Track Direction(Unit Vector)*/ 
+void UTankTrack::DriveTrack()
+{
+	//Set a trottle between -1 and +1
+	auto ForceApplide = GetForwardVector() * CurretThrottle * TrackMaxDrivingForce;/*GetForwardVector() Track Direction(Unit Vector)*/
 	auto ForceLocation = GetComponentLocation();//  Track loation 
 	auto TankRoot = Cast<UPrimitiveComponent>(GetOwner()->GetRootComponent());//We pass to the primitive component for application-> AddForceAtLocation(ForceApplide, ForceLocation);
 
 	TankRoot->AddForceAtLocation(ForceApplide, ForceLocation);
-
 }
 
-//void UTankTrack::ApplySidewaysForce()
-//{
-//	auto SlippageSpeed = FVector::DotProduct(GetRightVector(), GetComponentVelocity());//–ассчитайте скал€рное произведение двух векторов. бокового вектора и скорости
-//	auto DeltaTime = GetWorld()->GetDeltaSeconds();
-//	auto  CorrectionAcceleration = -SlippageSpeed / DeltaTime * GetRightVector();//ускорение танка при поворотах
-//
-//	// –ассчитать и применить вбок (F = ma)
-//	auto TankRoot = Cast<UStaticMeshComponent>(GetOwner()->GetRootComponent());// Get RootComponent tank 
-//	auto CorrectionForce = (TankRoot->GetMass() * CorrectionAcceleration) / 2; // Two tarac
-//	TankRoot->AddForce(CorrectionForce);
-//}
+void UTankTrack::ApplySidewaysForce()
+{
+	auto SlippageSpeed = FVector::DotProduct(GetRightVector(), GetComponentVelocity());//–ассчитайте скал€рное произведение двух векторов. бокового вектора и скорости
+	auto DeltaTime = GetWorld()->GetDeltaSeconds();
+	auto  CorrectionAcceleration = -SlippageSpeed / DeltaTime * GetRightVector();//ускорение танка при поворотах
+
+	// –ассчитать и применить вбок (F = ma)
+	auto TankRoot = Cast<UStaticMeshComponent>(GetOwner()->GetRootComponent());// Get RootComponent tank 
+	auto CorrectionForce = (TankRoot->GetMass() * CorrectionAcceleration) / 2; // Two tarac
+	TankRoot->AddForce(CorrectionForce);
+}
