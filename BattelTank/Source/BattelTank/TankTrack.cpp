@@ -11,22 +11,33 @@
 
 UTankTrack::UTankTrack()
 {
-	PrimaryComponentTick.bCanEverTick = false;
+	PrimaryComponentTick.bCanEverTick = true;
+	
+}
+
+void UTankTrack::BeginPlay()
+{
+	OnComponentHit.AddDynamic(this, &UTankTrack::OnHit);//where to find the method when the event worked
+}
+
+void UTankTrack::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	UE_LOG(LogTemp, Warning, TEXT("OnHit"));
 }
 
 void UTankTrack::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
-//Calculate the sllipage speed 
-auto SllipageSpeed = FVector::DotProduct(GetRightVector(), GetComponentVelocity());
+	//Calculate the sllipage speed 
+	auto SllipageSpeed = FVector::DotProduct(GetRightVector(), GetComponentVelocity());
 
-//Wor - out the rewquired acceleration rhis frame to correct
-auto CorrectionAcceleration = -SllipageSpeed / DeltaTime * GetRightVector();
+	//Wor - out the rewquired acceleration rhis frame to correct
+	auto CorrectionAcceleration = -SllipageSpeed / DeltaTime * GetRightVector();
 
-// Calculate and apply sideways for (f = m a)
-auto TankRoot = Cast<UStaticMeshComponent>(GetOwner()->GetRootComponent());
-auto CorrectionForce = TankRoot->GetMass() * CorrectionAcceleration / 2; // 2 track
+	// Calculate and apply sideways for (f = m a)
+	auto TankRoot = Cast<UStaticMeshComponent>(GetOwner()->GetRootComponent());
+	auto CorrectionForce = TankRoot->GetMass() * CorrectionAcceleration / 2; // 2 track
 
-TankRoot->AddForce(CorrectionForce);
+	TankRoot->AddForce(CorrectionForce);
 }
 
 void UTankTrack::SetTrottele(float Throttle)
@@ -39,9 +50,8 @@ void UTankTrack::SetTrottele(float Throttle)
 
 	TankRoot->AddForceAtLocation(ForceApplide, ForceLocation);
 
-	UE_LOG(LogTemp, Warning, TEXT("%s tr tr tr %s"), *ForceApplide.ToString(), *ForceLocation.ToString())
-	
 }
+
 //void UTankTrack::ApplySidewaysForce()
 //{
 //	auto SlippageSpeed = FVector::DotProduct(GetRightVector(), GetComponentVelocity());//Рассчитайте скалярное произведение двух векторов. бокового вектора и скорости

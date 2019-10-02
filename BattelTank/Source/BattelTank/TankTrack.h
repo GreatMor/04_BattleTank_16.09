@@ -16,10 +16,7 @@ class BATTELTANK_API UTankTrack : public UStaticMeshComponent
 
 public:
 
-	UTankTrack();
 	
-	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
 	/*void ApplySidewaysForce();*/
 
 	UFUNCTION(BlueprintCallable, Category = Input)
@@ -27,5 +24,18 @@ public:
 
 	//Max force per track, in Newtons
 	UPROPERTY(EditAnyWhere, Category = Input)
-	float TrackMaxDrivingForce = 40000000;// Assume 40 tonne tank, and 1g accelleration
+	float TrackMaxDrivingForce = 60000000;// Assume 40 tonne tank, and 1g accelleration
+
+private:
+
+	UTankTrack();
+
+	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	virtual void BeginPlay()override;
+
+
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	/** Delegate for notification of start of overlap with a specific component */
 };
