@@ -11,9 +11,9 @@ void ATankAIController::Tick(float DeltaTime)
 	auto PlayerTank = GetWorld()->GetFirstPlayerController()->GetPawn();//Location of the player’s tank  (Место нахождене танка игрока) 
 	auto ControlledTank = GetPawn();
 
-	if (!ensure(PlayerTank && ControlledTank)) { return;}
-	
-	
+	if (!ensure(PlayerTank && ControlledTank)) { return; }
+
+
 	//Move towards the player
 	MoveToActor(PlayerTank, AcceptanceRadius);
 
@@ -22,8 +22,11 @@ void ATankAIController::Tick(float DeltaTime)
 	AimingComponent->AimAt(PlayerTank->GetActorLocation());
 
 	//shoot the player
-	AimingComponent->Fire();	
-}	
+	if (AimingComponent->GetFiringState() == EFiringState::Locked)// ai tank does not shoot until it captures the target
+	{
+		AimingComponent->Fire();
+	}
+}
 
 void ATankAIController::BeginPlay()
 {

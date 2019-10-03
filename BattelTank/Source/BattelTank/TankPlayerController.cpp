@@ -26,11 +26,13 @@ void ATankPlayerController::AimTowardsCrosshair()
 	auto AmingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
 	if (!ensure(AmingComponent)) { return; }
 
-	FVector HitLocation; // OutParameter	
+	FVector HitLocation; // OutParameter
+	auto bGetSighetHitLocation = GetSighetHitLocation(HitLocation);
 
-	if (GetSighetHitLocation(HitLocation)) // All rights reserved.
+	UE_LOG(LogTemp, Warning, TEXT("%i bGetSighetHitLocation"), bGetSighetHitLocation);
+	if (bGetSighetHitLocation) // All rights reserved.
 	{
-		AmingComponent->AimAt(HitLocation);
+		 AmingComponent->AimAt(HitLocation);
 	}
 }
 
@@ -48,9 +50,9 @@ bool ATankPlayerController::GetSighetHitLocation(FVector& HitLocation) const
 
 	if (GetLookDirektion(ScreenLocation, LookDirection))
 	{
-		GetLoolVectorHitLocation(LookDirection, HitLocation);
+		return GetLoolVectorHitLocation(LookDirection, HitLocation);
 	}
-	return true;
+	return false;
 }
 
 

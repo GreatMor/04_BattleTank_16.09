@@ -16,6 +16,7 @@ enum class EFiringState : uint8
 	Reloading,
 	Aiming,
 	Locked,
+	NoShells
 };
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
@@ -23,8 +24,7 @@ class BATTELTANK_API UTankAimingComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:
-	
+public:	
 
 	UFUNCTION(BlueprintCallable)
 	void Fire();
@@ -33,6 +33,9 @@ public:
 	void Initilaize(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);// Sets the link to the tank barrel and turret
 
 	void AimAt(FVector HitLocation);
+
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	float GetCurrentSell()const;
 
 	EFiringState GetFiringState() const;
 	
@@ -60,19 +63,22 @@ private:
 	void MoveBarrelTowards(FVector AimDir);	// Move barrel to direction
 
 	UPROPERTY(EditAnyWhere, Category = "Firing")
-		float LaunchSpeed = 4000;
+	float LaunchSpeed = 4000;
 
 	UPROPERTY(EditAnyWhere, Category = "Firing")
-		TSubclassOf<AProjectile> ProjectileBlueprint;
+	TSubclassOf<AProjectile> ProjectileBlueprint;
 
 	UPROPERTY(EditAnyWhere, Category = "Firing")
-		float ReloadTimeInSeconds = 3;
+	float ReloadTimeInSeconds = 3;
 
 	double LastFireTime = 0;
 
 	bool IsBarrelMoving();
 
 	FVector AimDirection;
+
+	UPROPERTY(EditAnyWhere)
+	float Shell = 3;
 };
 	
 
