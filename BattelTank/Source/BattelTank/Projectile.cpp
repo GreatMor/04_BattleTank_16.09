@@ -11,6 +11,14 @@ AProjectile::AProjectile()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//Create a default Movement component for the tank
+	CollisionMash = CreateDefaultSubobject<UStaticMeshComponent>(FName("Collision Mash"));
+	SetRootComponent(CollisionMash);
+	CollisionMash->SetNotifyRigidBodyCollision(true);
+	CollisionMash->SetVisibility(true);
+
+	LaunchBlast = CreateDefaultSubobject<UParticleSystemComponent>(FName("Launch Blast"));
+	LaunchBlast->AttachTo(RootComponent);
+
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(FName("Movement Component"));
 	ProjectileMovement->bAutoActivate = false;
 }
