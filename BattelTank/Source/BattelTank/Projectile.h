@@ -47,6 +47,9 @@ private:
 	UPROPERTY(EditAnyWhere,  Category = "Setup")
 	float DestroyDelay = 5;
 
+	UPROPERTY(EditAnyWhere, Category = "Setup")
+	float ProjectileDamage = 20;
+
 	UProjectileMovementComponent* ProjectileMovement = nullptr; 
 	 
 };

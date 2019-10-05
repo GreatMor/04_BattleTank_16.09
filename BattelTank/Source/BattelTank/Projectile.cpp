@@ -4,6 +4,8 @@
 #include "Projectile.h"
 #include "Engine/World.h"
 #include "TimerManager.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/DamageType.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -48,6 +50,14 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, U
 	SetRootComponent(ImpactBlast);
 	CollisionMash->DestroyComponent();
 
+	UGameplayStatics::ApplyRadialDamage(this,
+		ProjectileDamage,
+		GetActorLocation(),
+		ExplosionForce->Radius,
+		UDamageType::StaticClass(),
+		TArray<AActor*>()//Damage all actor
+	);
+
 	FTimerHandle TimerHandle;
 	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &	AProjectile::OnTimerDestroy, DestroyDelay, false);
 }
@@ -59,9 +69,7 @@ void AProjectile::OnTimerDestroy()
 
 void AProjectile::LaunchProjectile(float SpeedProjectile)
 {
-	auto Time = GetWorld()->DeltaTimeSeconds;
-	UE_LOG(LogTemp, Warning, TEXT("%f fire projectile %f"), Time, SpeedProjectile);
-
+	
 	ProjectileMovement->SetVelocityInLocalSpace(FVector::ForwardVector * SpeedProjectile);
 
 	ProjectileMovement->Activate();//Active projectile movement after the projectile flies

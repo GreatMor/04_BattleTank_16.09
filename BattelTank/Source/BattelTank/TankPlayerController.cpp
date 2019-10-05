@@ -29,7 +29,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 	FVector HitLocation; // OutParameter
 	auto bGetSighetHitLocation = GetSighetHitLocation(HitLocation);
 
-	UE_LOG(LogTemp, Warning, TEXT("%i bGetSighetHitLocation"), bGetSighetHitLocation);
+
 	if (bGetSighetHitLocation) // All rights reserved.
 	{
 		 AmingComponent->AimAt(HitLocation);
