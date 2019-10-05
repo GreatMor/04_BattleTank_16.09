@@ -3,6 +3,7 @@
 
 #include "Projectile.h"
 #include "Engine/World.h"
+#include "TimerManager.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -37,11 +38,23 @@ void AProjectile::BeginPlay()
 
 	CollisionMash->OnComponentHit.AddDynamic(this, &AProjectile::OnHit);
 }
+
 void AProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	LaunchBlast->Deactivate();
 	ImpactBlast->Activate();
 	ExplosionForce->FireImpulse();
+
+	SetRootComponent(ImpactBlast);
+	CollisionMash->DestroyComponent();
+
+	FTimerHandle TimerHandle;
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &	AProjectile::OnTimerDestroy, DestroyDelay, false);
+}
+
+void AProjectile::OnTimerDestroy()
+{
+	Destroy();
 }
 
 void AProjectile::LaunchProjectile(float SpeedProjectile)
