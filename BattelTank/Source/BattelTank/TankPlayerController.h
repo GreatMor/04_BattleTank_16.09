@@ -47,4 +47,9 @@ private:
 
 	// Return an Out paramete,  true if hit landscape
 	bool GetSighetHitLocation(FVector& HitLocation) const;
+
+	UFUNCTION()
+	void OnPassedTankDeath();
+
+	virtual void SetPawn(APawn* InPawn)override;
 };

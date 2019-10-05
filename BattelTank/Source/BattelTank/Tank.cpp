@@ -5,6 +5,11 @@
 #include "Projectile.h"
 
 
+float ATank::GetHealthPercentage()
+{
+	return (float)CurrenHelth /(float)StartingHelth;
+}
+
 // Sets default values
 ATank::ATank()
 {
@@ -24,7 +29,7 @@ float ATank::TakeDamage(float DamageAmount,
 	CurrenHelth -= DamageToAplay;
 	if (CurrenHelth <= 0)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Tank died"));
+		OnDeath.Broadcast();
 	}
 	
 	return DamageToAplay;

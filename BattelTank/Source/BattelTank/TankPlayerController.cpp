@@ -4,6 +4,7 @@
 #include "Engine/World.h"
 #include "TankAimingComponent.h"
 #include "Camera/PlayerCameraManager.h"
+#include "Tank.h"
 
 void ATankPlayerController::BeginPlay()
 {
@@ -88,4 +89,22 @@ bool ATankPlayerController::GetLoolVectorHitLocation(FVector LookDirection, FVec
 
 	HitLocation = FVector(0);
 	return false;
+}
+
+void ATankPlayerController::OnPassedTankDeath()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Tank death"));
+}
+
+void ATankPlayerController::SetPawn(APawn* InPawn)
+{
+	Super::SetPawn(InPawn);
+
+	if (InPawn)
+	{
+		auto PassesPawn = Cast <ATank>(InPawn);
+		if (!ensure(InPawn)) { return; }
+		PassesPawn->OnDeath.AddUniqueDynamic(this, &ATankPlayerController::OnPassedTankDeath);
+	}
+
 }
