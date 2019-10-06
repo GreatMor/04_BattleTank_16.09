@@ -17,6 +17,14 @@ ATank::ATank()
 	PrimaryActorTick.bCanEverTick = false;
 
 }
+
+void ATank::BeginPlay()
+{
+	Super::BeginPlay();
+
+	CurrenHelth = StartingHelth;
+}
+
 float ATank::TakeDamage(float DamageAmount,
 	struct FDamageEvent const& DamageEvent,
 	class AController* EventInstigator,

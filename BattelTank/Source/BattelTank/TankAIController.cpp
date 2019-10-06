@@ -5,6 +5,25 @@
 #include "Engine/World.h"
 #include "Tank.h"
 
+void ATankAIController::SetPawn(APawn* InPawn)
+{
+	Super::SetPawn(InPawn);
+
+	if (InPawn)
+	{
+		auto PassesPawn = Cast <ATank>(InPawn);
+		if (!ensure(InPawn)) { return; }
+		PassesPawn->OnDeath.AddUniqueDynamic(this, &ATankAIController::OnPassedTankDeath);
+	}
+}
+
+
+void ATankAIController::OnPassedTankDeath()
+{
+	if (!ensure(GetPawn())) { return; }
+	GetPawn()->DetachFromControllerPendingDestroy();
+}
+
 void ATankAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -13,13 +32,12 @@ void ATankAIController::Tick(float DeltaTime)
 	auto ControlledTank = GetPawn();
 
 	if (!ensure(PlayerTank && ControlledTank)) { return; }
-
-
+	
 	//Move towards the player
 	MoveToActor(PlayerTank, AcceptanceRadius);
 
-	auto AimingComponent = ControlledTank->FindComponentByClass<UTankAimingComponent>();
 	//Aim towards the player (Нацелится на танк игрока )
+	auto AimingComponent = ControlledTank->FindComponentByClass<UTankAimingComponent>();
 	AimingComponent->AimAt(PlayerTank->GetActorLocation());
 
 	//shoot the player
@@ -28,28 +46,4 @@ void ATankAIController::Tick(float DeltaTime)
 		AimingComponent->Fire();
 	}
 }
-
-void ATankAIController::SetPawn(APawn* InPawn)
-{
-	Super::SetPawn(InPawn);
-	
-	if (InPawn)
-	{
-		auto PassesPawn = Cast <ATank>(InPawn);
-		if (!ensure(InPawn)) { return; }
-		PassesPawn->OnDeath.AddUniqueDynamic(this, &ATankAIController::OnPassedTankDeath);
-	}
-	
-}
-
-void ATankAIController::OnPassedTankDeath()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Test"));
-}
-
-void ATankAIController::BeginPlay()
-{
-	Super::BeginPlay();
-}
-
 

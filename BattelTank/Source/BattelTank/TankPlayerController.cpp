@@ -9,10 +9,23 @@
 void ATankPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
+	if (!GetPawn()) { return; }
 	auto AmingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();	
-	if (!ensure(AmingComponent)) { return; }
 
+	if (!ensure(AmingComponent)) { return; }
 	FounaAmingComponent(AmingComponent);
+}
+
+void ATankPlayerController::SetPawn(APawn* InPawn)
+{
+	Super::SetPawn(InPawn);
+
+	if (InPawn)
+	{
+		auto PassesPawn = Cast <ATank>(InPawn);
+		if (!ensure(InPawn)) { return; }
+		PassesPawn->OnDeath.AddUniqueDynamic(this, &ATankPlayerController::OnPassedTankDeath);
+	}
 }
 
 void ATankPlayerController::Tick(float DeltaTime)
@@ -25,11 +38,10 @@ void ATankPlayerController::Tick(float DeltaTime)
 void ATankPlayerController::AimTowardsCrosshair()
 {
 	auto AmingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
-	if (!ensure(AmingComponent)) { return; }
+	if (ensure(!AmingComponent)) { return; }
 
 	FVector HitLocation; // OutParameter
 	auto bGetSighetHitLocation = GetSighetHitLocation(HitLocation);
-
 
 	if (bGetSighetHitLocation) // All rights reserved.
 	{
@@ -93,18 +105,6 @@ bool ATankPlayerController::GetLoolVectorHitLocation(FVector LookDirection, FVec
 
 void ATankPlayerController::OnPassedTankDeath()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Tank death"));
+	StartSpectatingOnly();
 }
 
-void ATankPlayerController::SetPawn(APawn* InPawn)
-{
-	Super::SetPawn(InPawn);
-
-	if (InPawn)
-	{
-		auto PassesPawn = Cast <ATank>(InPawn);
-		if (!ensure(InPawn)) { return; }
-		PassesPawn->OnDeath.AddUniqueDynamic(this, &ATankPlayerController::OnPassedTankDeath);
-	}
-
-}

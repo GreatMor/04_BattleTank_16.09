@@ -25,11 +25,13 @@ public:
 	
 private:
 
+	virtual void BeginPlay()override;
+
 	// Sets default values for this pawn's properties
 	ATank();
 		
 	UPROPERTY(EditDefaultsOnly, Category="Setup")
 	int32 StartingHelth = 100;
 
-	int32 CurrenHelth = StartingHelth;
+	int32 CurrenHelth;
 };
